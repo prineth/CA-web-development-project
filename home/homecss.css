@@ -10,7 +10,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 nav{
-    background: #0082e6;
+    background: #219c2c;
     height: 80px;
     width:100%;
 }
@@ -38,7 +38,7 @@ nav ul li a{
     border-radius: 3px;
 }
 a.active,a:hover{
-    background: #1b9bff;
+    background: #2acf38;
     transition: .5s; 
 }
 
@@ -56,13 +56,15 @@ a.active,a:hover{
     display: none;
 }
 
+
+
 /*search bar */
 .search-box{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background:#2f3640;
+    background:#219c2c;
     height: 40px;
     border-radius:40px;
 }
@@ -72,17 +74,17 @@ a.active,a:hover{
 }
 
 .search-box:hover > .search-btn{
-    background:white;
+    background:#2acf38;
 
 }
 
 .search-btn{
-    color: #e84118;
+    color: white;
     float: right;
     width:40px;
     height: 40px;
     border-radius: 50%;
-    background: #2f3640;
+    background: #219c2c;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -95,7 +97,7 @@ a.active,a:hover{
     outline:none;
     float: left;
     padding:0;
-    color:white;
+    color:rgb(255, 255, 255);
     font-size:16px;
     transition: 0.4s;
     line-height:40px;
@@ -142,6 +144,18 @@ a.active,a:hover{
     }
     #check:checked ~ ul{
         left: 0;
+    }
+}
+
+#doYouKnow{
+    color: white;
+    
+    align: center;
+}
+
+@media (max-width:858px){
+    #doYouKnow{
+        color: black;
     }
 }
 
