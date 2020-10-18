@@ -26,7 +26,6 @@ nav ul{
     margin-right:20px;
 }
 nav ul li{
-    position:sticky;
     display: inline-block;
     inline-height:80px;
     margin:0 5px;
