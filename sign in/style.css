@@ -1,10 +1,10 @@
-{
+body{
 	margin: 0;
 	padding: 0;
-	backgroung: url(travel.jpg);
+	background: url(travel.jpg);
 	background-size: cover;
 	background-position:center;
-	font-family:sans-serif:
+	font-family:sans-serif;
 	}
 .sign-in{
 	width:320px;
@@ -33,7 +33,7 @@
 		text-align:center;
 		font-size:22px;
 	}
-.loginbox p
+.loginbox p{
 	margin:0;
 	padding:0;
 	font-weight:bold;
@@ -42,15 +42,15 @@
 	width:100%;
 	margin-bottom:20px;
 }
-.loginbox input[type="text"],input[type="password"
+.loginbox input[type="text"],input[type="password"]
 {
 	border:none;
-	border-bottom:1px soild #fff
+	border-bottom:1px soild #fff;
 	background:trasnparent;
 	outline:none;
 	height:40px;
-	color:#fff
-	font-sixe:16px;
+	color:#fff;
+	font-size:16px;
 }
 
 .loginbox input[type="submit"]
@@ -59,9 +59,9 @@
 	outline:none;
 	height:40px;
 	background:#fb2525;
-	color:#fff
+	color:#fff;
 	font-size:18px;
-	boder-radius:20px;
+	border-radius:20px;
 }
 .loginbox input[tupe="sumbit"]:hover
 {
