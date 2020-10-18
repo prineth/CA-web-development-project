@@ -62,7 +62,7 @@ a.active,a:hover{
 /*search bar */
 .search-box{
     position: absolute;
-    top: 50%;
+    top: 46%;
     left: 50%;
     transform: translate(-50%,-50%);
     background:#219c2c;
@@ -104,7 +104,12 @@ a.active,a:hover{
     line-height:40px;
     width: 0px; /* if you want big search button fix this to 240px*/
 }
- 
+/*Search button phone view*/
+@media (max-width:952px){
+    .search-box{
+       display: none;
+    }
+}
 
 /* phone view */
 @media (max-width:952px){
