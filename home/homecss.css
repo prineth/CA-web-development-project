@@ -29,6 +29,7 @@ nav ul li{
     display: inline-block;
     inline-height:80px;
     margin:0 5px;
+
 }
 nav ul li a{
     color: white;
@@ -146,22 +147,56 @@ a.active,a:hover{
         left: 0;
     }
 }
-
-#doYouKnow{
-    color: white;
-    
-    align: center;
+/* Topics*/
+.topics{
+    position: absolute; 
+    top: 150px;
+    left: 27%;
+    float: none;
+    margin:0 auto;
+}
+.mainTopic{
+    font-family: Verdana;
+    font-weight: 600;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
 }
 
+.subtitle{
+    font-family: Verdana;
+    font-size: 23px;
+    color: #ffffff;
+    text-align: center;
+}
+/*
 @media (max-width:858px){
-    #doYouKnow{
-        color: black;
+   / .topics{
+        position: absolute; 
+        top: 180px;
+        left: 30px;
+        float: none;
+        margin:0 auto;
     }
-}
+    .mainTopic{
+        font-family: Verdana;
+        font-weight: 600;
+        font-size: 40px;
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .subtitle{
+        font-family: Verdana;
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+}  */
 
 section{
     background: url(images/peocock.jpg) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
+    opacity: 85%;
 }
 
