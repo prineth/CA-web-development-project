@@ -26,6 +26,7 @@ nav ul{
     margin-right:20px;
 }
 nav ul li{
+    position:sticky;
     display: inline-block;
     inline-height:80px;
     margin:0 5px;
@@ -146,7 +147,7 @@ a.active,a:hover{
     }
     a:hover,a.active{
         background:none;
-        color:#0082e6;
+        color:#2acf38;
     }
     #check:checked ~ ul{
         left: 0;
