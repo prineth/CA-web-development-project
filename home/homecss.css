@@ -225,6 +225,7 @@ slider > *{
     background-color:#1f1f1f;
     animation: slide 12s infinite;
     overflow:hidden;
+    opacity: 50%;
 }
 
 /*child 1*/
@@ -234,6 +235,7 @@ slide:nth-child(1){
     background-image: url(images/alla9arch.jpg);
     background-size: cover;
     background-position:center;
+    opacity: 50%;
 }
 
 /*child 2*/
@@ -242,6 +244,7 @@ slide:nth-child(2){
     background-image: url(images/beachside.jpg);
     background-size: cover;
     background-position:center;
+    opacity: 50%;
 }
 
 /*child 3*/
@@ -251,6 +254,7 @@ slide:nth-child(3){
     background-image: url(images/peocock.jpg);
     background-size: cover;
     background-position:center;
+    opacity: 50%;
 }
 
 /*child 4*/
@@ -260,6 +264,7 @@ slide:nth-child(4){
     background-image: url(images/sigiriya.jpg);
     background-size: cover;
     background-position:center;
+    opacity: 50%;
 }
 
 slide p{
