@@ -30,6 +30,9 @@ body {
     background-size: cover;
 
 }
+
+
+
 .card-text {
     grid-area: text;
     margin: 25px;
