@@ -24,13 +24,46 @@ body {
 
 
 }
-.card-image {
+/*CARD IMAGES*/
+/*beach*/
+.card-image1 {
     grid-area: image;
-    background: url("large-Riverstone-way-to-top-1588555771944.jpg");
+    background: url("images/beach.jpg");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
-
+}
+/*off road*/
+.card-image2 {
+    grid-area: image;
+    background: url("images/offroad.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+/*water rafting*/
+.card-image3 {
+    grid-area: image;
+    background: url("images/water\ rafting.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+/*hiking*/
+.card-image4 {
+    grid-area: image;
+    background: url("images/large-Riverstone-way-to-top-1588555771944.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+/*Ancient cities*/
+.card-image5 {
+    grid-area: image;
+    background: url("images/ancient.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
 }
 
 
@@ -45,7 +78,7 @@ body {
 }
 .card-text p {
     color: grey;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 300;
 
 
