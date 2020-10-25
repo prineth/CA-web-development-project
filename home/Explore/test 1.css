@@ -7,13 +7,15 @@ body {
    /* background:url("green-bokeh-background-4.png"); */
     overflow: hidden;
 }
+
 .card {
     display:grid;
-    grid-template-columns: 300px;
+    grid-template-columns: 250px;
     grid-template-rows: 210px 210px 80px;
     grid-template-areas: "image" "text" "stats";
 
-    font-family: roboto;
+    font-family:  Arial, Helvetica, sans-serif;
+    
     border-radius: 18px;
     background: white;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
@@ -68,7 +70,7 @@ body {
     justify-content: center;
     flex-direction: column;
     padding: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .card-stats .type {
@@ -91,6 +93,6 @@ body {
 }
 
 .card:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
