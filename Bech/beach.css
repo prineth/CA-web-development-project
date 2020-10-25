@@ -1,0 +1,125 @@
+body{
+  background: linear-gradient(to top,#f5ffee  0%, #f4f4f4 100%)
+}
+.maindiv{
+	
+	height: 1830px;
+	width: 910px;
+	background-color: green;
+	padding: 10px;
+	text-align: center;
+
+
+}
+
+.subdivup{
+	
+	/*background-color: blue;*/
+	
+	height: 600px;
+	width: 920px;
+
+	
+
+}
+.subdivdown{
+
+	/*background-color: orange; */
+	height: 300px;
+	width: 900px;
+	margin-top: 0px;
+	padding-bottom:0px;
+}
+
+
+.left{
+
+	background-image: url("images/a.jpg");
+	background-size: cover;
+	height: 600px;
+	width: 600px;
+	
+	}
+
+
+
+
+.right{
+	/*background-color: black;*/
+
+	height: 600px;
+	width: 300px;
+	float: right;
+	padding: 0px;
+	margin-right: 10px;
+	
+	
+}
+
+.smallup{
+	background-image: url("images/c.jpg");
+	background-size: cover;
+	height: 300px;
+	width: 300px;
+	margin: 0px;
+	margin-top:0px;
+	
+}
+.smalldown{
+
+		background-image: url("images/d.jpg");
+	background-size: cover;
+	height:290px;
+	width: 300px;
+	margin: 0px;
+	margin-top:  10px;
+
+}
+	
+
+.samlldiv1{
+	margin-top:  10px;
+		background-image: url("images/b.jpg");
+	background-size: cover;
+	height: 300px;
+	width: 290px;
+	position: absolute;
+	
+}
+.samlldiv2{
+	margin: 10px;
+	background-image: url("images/e.jpg");
+	background-size: cover;
+	height: 300px;
+	width: 300px;
+	margin-left: 300px;
+	position: absolute;
+
+}
+
+.samlldiv3{
+	margin: 10px;
+	background-image: url("images/f.jpg");
+	background-size: cover;
+	height: 300px;
+	width: 300px;
+	margin-left: 610px;
+	position: absolute;
+} 
+ 
+.Topic{
+	text-align: center;
+}
+.text1{
+	height: 60px;
+	background-color: gray;
+	opacity: 70%;
+	position: absolute;
+	text-align: center;
+}
+
+
+.bigleft{
+		height: 600px;
+	width: 600px;
+}
