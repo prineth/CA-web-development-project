@@ -63,6 +63,7 @@ body{
 	width: 300px;
 	margin: 0px;
 	margin-top:0px;
+	transition: 0.4s;
 	
 }
 .smalldown{
@@ -73,7 +74,7 @@ body{
 	width: 300px;
 	margin: 0px;
 	margin-top:  10px;
-
+	transition: 0.4s;
 }
 	
 
@@ -84,6 +85,7 @@ body{
 	height: 300px;
 	width: 290px;
 	position: absolute;
+	transition: 0.4s;
 	
 }
 .samlldiv2{
