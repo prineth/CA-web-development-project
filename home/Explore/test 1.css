@@ -127,8 +127,3 @@ body {
     transform: scale(1.1);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
-
-.map {
-    /*background: url(1a15cbf1b61b7a95d8922482ecfeb37d.jpg); */
-    background-color: #219c2c;
-}
