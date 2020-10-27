@@ -5,7 +5,7 @@ body {
     align-items: center;
     justify-content: center;
    /* background:url("green-bokeh-background-4.png"); */
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .card {
@@ -130,5 +130,11 @@ body {
 
 .map {
     /*background: url(1a15cbf1b61b7a95d8922482ecfeb37d.jpg); */
-    background-color: #219c2c;
+    background: url("a.jpg")no-repeat;
+    background-size: cover;
+
+   position: absolute;
+   margin-top: 1200px;
+    width: 450px;
+    height: 550px;
 }
