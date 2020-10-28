@@ -131,7 +131,7 @@ body {
 
 .map {
     /*background: url(1a15cbf1b61b7a95d8922482ecfeb37d.jpg); */
-    background: url("a.jpg")no-repeat;
+    /*background: url("a.jpg")no-repeat;*/
     background-size: cover;
 
    position: absolute;
