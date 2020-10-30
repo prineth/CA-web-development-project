@@ -13,13 +13,9 @@ nav{
     background: #219c2c;
     height: 80px;
     width:100%;
+   
 }
-nav.navbar{
-    position: fixed;
-    top: 0;
-    width: 100%;
-  
-}
+
 label.logo{
     color: white;
     font-size:35px;
