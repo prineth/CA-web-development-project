@@ -1,22 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<?php include 'navigator.php'; ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Parallax Scrolling Effect</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
 </head>
 <body>
     <header>
-        <nav>
+        <!--nav>
             <div class="container">
                 <h3 class="logo">Travel<span>Lanka</span></h3>
+                    <a href="#" class="navtop">Home</a>
+                    <a href="#" class="navtop">My trips</a>
+                    <a href="#" class="navtop">Attraction</a>
+                    <a href="#" class="navtop">About us</a>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <a href="#" class="navtop"> <span>Login</span> </a>
+                    <a href="#" class="navtop">Signup</a>
                 <div class="hamburger-menu">
                     <div class="bar"></div>
                 </div>
             </div>
-        </nav>
+        </nav-->
 
         <h1 class="big-title translate" data-speed="0.1">  </h1><!-- TOPIC "travel lanka"-->
 
