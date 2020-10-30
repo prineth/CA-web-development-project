@@ -16,7 +16,7 @@ body
     margin-top: 60px;
     margin-bottom: 18px;
     width: 80px;
-    animation: mover is infinite alternate;
+    animation: mover 1s infinite alternate;
 
 }
 
