@@ -1,5 +1,5 @@
 
-  <nav>
+  <nav class="navbar" style="position: fixed;top: 0;width: 100%;">
     <input type="checkbox" id="check">
 
     <!--For bars-->
