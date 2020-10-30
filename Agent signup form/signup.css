@@ -16,6 +16,7 @@ body
     margin-top: 60px;
     margin-bottom: 18px;
     width: 80px;
+    animation: mover is infinite alternate;
 
 }
 
@@ -81,6 +82,13 @@ body
 .register-right .btn-primary:hover
 {
     background: #ff5722;
+}
+
+@keyframes mover
+{
+    0%{transform: translateY(0);}
+    100%{transform: translateY(-20px);}
+
 }
 
 
