@@ -1,4 +1,6 @@
-<?php include 'navigator.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -7,23 +9,10 @@
     <link rel="stylesheet" type="text/css" href="nav.css">
 </head>
 <body>
-    <header>
-        <!--nav>
-            <div class="container">
-                <h3 class="logo">Travel<span>Lanka</span></h3>
-                    <a href="#" class="navtop">Home</a>
-                    <a href="#" class="navtop">My trips</a>
-                    <a href="#" class="navtop">Attraction</a>
-                    <a href="#" class="navtop">About us</a>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                    <a href="#" class="navtop"> <span>Login</span> </a>
-                    <a href="#" class="navtop">Signup</a>
-                <div class="hamburger-menu">
-                    <div class="bar"></div>
-                </div>
-            </div>
-        </nav-->
+    <?php include 'navigator.php' ?>
 
+    <header>
+             
         <h1 class="big-title translate" data-speed="0.1">  </h1><!-- TOPIC "travel lanka"-->
 
         <!--<img src="img/person.png" class="person translate" data-speed="-0.25" alt=""> -->
