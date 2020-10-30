@@ -46,5 +46,33 @@ body
 
 .register-right h2
 {
-    
+    text-align: center;
+    margin-bottom: 10px;
+    color: #555;
 }
+
+.register-form
+{
+    padding: 30px;
+}
+
+.register-right .btn-primary
+{
+    float: right;
+    border-radius: 1.5rem;
+    border: none;
+    width: 120px;
+    background: #f8f8f8;
+    font-weight: 600;
+    color: #000;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+.register-right .btn-primary:hover
+{
+    background: #ff5722;
+}
+
+
