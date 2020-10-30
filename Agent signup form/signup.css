@@ -11,6 +11,14 @@ body
     padding: 30px;
 }
 
+.register-left img
+{
+    margin-top: 60px;
+    margin-bottom: 18px;
+    width: 80px;
+
+}
+
 .register-left p
 {
     padding: 20px 20px 0;
