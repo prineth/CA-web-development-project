@@ -1,1 +1,24 @@
 @charset "utf-8"
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #EBECF0;
+    font-family: candara;
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 60%;
+    height: auto;
+    margin: 30px auto;
+    padding: 20px 40px;
+    background:#EBECF0 ;
+    box-shadow: 7px 7px 15px rgba(55,84,170,.15),-7px -7px 4px rgba (255,255,255,1),0px 0px 4px rgba(255,255,255,.2) !important;
+            
+}
