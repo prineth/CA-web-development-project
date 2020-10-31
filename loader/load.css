@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	/*background: linear-gradient(to top,#f5ffee  0%, #f4f4f4 100%);*/
 }
 
 body{
@@ -9,7 +10,7 @@ body{
 	justify-content:center;
 	align-items: center;
 	min-height: 100vh; /*vh */
-	background: #03a9f4;
+	background:seagreen;
 }
 .loader{
 	position: relative;
@@ -33,7 +34,7 @@ body{
 	left:0;
 	width: 15px;
 	height: 15px;
-	background: #fff;
+	background: green;
 	border-radius: 50%;
 	transform: scale(0);
 	animation: animate 2s linear infinite;
@@ -82,7 +83,9 @@ body{
 	position: absolute;
 	top: 80px;
 	left:85px;
-	color: #fff;
+	color: lightgreen;
 	font-size: 60px;
 	transform: rotate(180deg);
+	
+
 }
