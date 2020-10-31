@@ -96,8 +96,37 @@
     }
 
         // Log user in login form
-        //ensure that form fields are filled properly
-        //header('location: login.php');
+        if(isset($_POST['login'])){
+            $username = mysqli_real_escape_string($db, $_POST['username']);
+            $password = mysqli_real_escape_string($db, $_POST['password']);
+        
+            //ensure that form fields are filled properly
+            if(empty($username))
+            {
+                array_push($errors, "Username is required");
+            }
+            if(empty($password))
+            {
+               array_push($errors, "Password is required");
+            }
+            if(count($errors) == 0)
+            {
+                $password = md5($password);//encrypt password before comparing with the form database
+                $query = "SELECT * FROM agent WHERE username='$username' AND password='$password'";
+                $result = mysqli_query($db, $query);
+                if(mysqli_num_rows($result) == 1){
+                    //log the user in
+                    $_SESSION['username'] = $username;
+                    $_SESSION['success'] = "you are now logged in";
+                    header('location: index.php');//redirect to home page
+                }else{
+                    array_push($errors, "Wrong username or password");
+                    //header('location: login.php');
+                }
+            }
+        }
+        
+        
 
         //Logout
         if (isset($_GET['logout'])){

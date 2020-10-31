@@ -67,7 +67,7 @@
 
                                 <button type="submit" class="btn btn-primary" name="signup">Signup</button>
                                 
-                                Already signup? <a href="login.html"> Login</a>
+                                Already signup? <a href="login.php"> Login</a>
                             </form>
                             </div>
 
