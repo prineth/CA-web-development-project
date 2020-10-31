@@ -1,3 +1,4 @@
+<?php include('server.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -24,12 +25,16 @@
                         <div class="col-md-7 register-right">
                             <h2>Signup Here</h2>
                             <div class="register-form">
+                            <form method="post" action="signup.php">
+                            <!-- Display validation errors here -->
+                                <?php include('errors.php'); ?>
+                            <!-- start of inputs -->
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Full Name">
+                                    <input type="text" class="form-control" placeholder="Full Name" name="fullname">
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Username">
+                                    <input type="text" class="form-control" placeholder="Username" name="username">
                                 </div>
 
                                 <div class="form-group">
@@ -67,7 +72,7 @@
                                 <button type="button" class="btn btn-primary">Signup</button>
                                 
                                 Already signup? <a href="login.html"> Login</a>
-
+                            </form>
                             </div>
 
 
