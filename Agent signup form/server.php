@@ -67,26 +67,25 @@
         //if there is no errors, save user to data base
         if(count($errors) == 0)
         {
-            $password = md5(password_1); //encrypting password beforre saving
+            $password = md5($password_1); //encrypting password beforre saving
             $sql = "INSERT INTO agent (
-                fullname, 
-                username,
-                email, 
-                dob, 
-                address, 
-                nic,
-                contact, 
-                password)
-            VALUES(
-                '$fullname',
-                '$username',
-                '$email',
-                '$dob',
-                '$address',
-                '$nic',
-                '$contact',
-                '$contact',
-                '$password')";
+                        fullname, 
+                        username,
+                        email, 
+                        dob, 
+                        address, 
+                        nic,
+                        contact, 
+                        password) 
+                    VALUES (
+                        '$fullname',
+                        '$username',
+                        '$email',
+                        '$dob',
+                        '$address',
+                        '$nic',
+                        '$contact',
+                        '$password')";
             mysqli_query($db,$sql);
 
             	

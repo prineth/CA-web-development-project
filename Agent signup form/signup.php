@@ -65,7 +65,7 @@
                                     <input type="password" class="form-control" placeholder="Retype Password" name="password_2">
                                 </div>
 
-                                <button type="submit" class="btn btn-primary" name="register">Signup</button>
+                                <button type="submit" class="btn btn-primary" name="signup">Signup</button>
                                 
                                 Already signup? <a href="login.html"> Login</a>
                             </form>
