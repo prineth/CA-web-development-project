@@ -4,11 +4,11 @@
     $fullname = "";
     $username = "";
     $email = "";
-    $dob = date;
+    $dob = "";
     $address = "";
     $nic = "";
-    $contact = number;
-    $errors = "";
+    $contact = "";
+    $errors = array();
 
     //connect to database
     $db = mysqli_connect('localhost', 'root', '', 'registration');
@@ -101,7 +101,11 @@
         //header('location: login.php');
 
         //Logout
-        // redirect to home page
+        if (isset($_GET['logout'])){
+            session_destroy();
+            unset($_SESSION['username']);
+            header('location: login.php');// redirect to home page
+        }
 
 
 ?>

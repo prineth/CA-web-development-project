@@ -38,38 +38,34 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Email">
+                                    <input type="text" class="form-control" placeholder="Email" name="email">
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="date" class="form-control" placeholder="Date of birth">
+                                    <input type="date" class="form-control" placeholder="Date of birth" name="dob">
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Address">
+                                    <input type="text" class="form-control" placeholder="Address" name="address">
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="NIC">
+                                    <input type="text" class="form-control" placeholder="NIC" name="nic">
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Contact Number">
+                                    <input type="tel" class="form-control" placeholder="Contact Number" name="contact">
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Password">
-                                </div>
-
-                                 <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Password">
+                                    <input type="password" class="form-control" placeholder="Password" name="password_1">
                                 </div>
 
                                 <div class="form-group">
                                     <input type="password" class="form-control" placeholder="Retype Password" name="password_2">
                                 </div>
 
-                                <button type="button" class="btn btn-primary">Signup</button>
+                                <button type="submit" class="btn btn-primary" name="register">Signup</button>
                                 
                                 Already signup? <a href="login.html"> Login</a>
                             </form>
