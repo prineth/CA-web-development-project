@@ -4,7 +4,7 @@ body{
 .maindiv{
 	
 	height: 1830px;
-	width: 910px;
+	width: 100%;
 	background-color: green;
 	padding: 10px;
 	text-align: center;
@@ -17,7 +17,7 @@ body{
 	/*background-color: blue;*/
 	
 	height: 600px;
-	width: 920px;
+	width: 100%;
 
 	
 
@@ -37,7 +37,7 @@ body{
 	background-image: url("images/a.jpg");
 	background-size: cover;
 	height: 600px;
-	width: 600px;
+	width: 50%;
 	
 	}
 
@@ -48,7 +48,7 @@ body{
 	/*background-color: black;*/
 
 	height: 600px;
-	width: 300px;
+	width: 50%;
 	float: right;
 	padding: 0px;
 	margin-right: 10px;
