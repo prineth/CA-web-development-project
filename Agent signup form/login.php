@@ -24,9 +24,10 @@
                             <h2>Signup Here</h2>
                             <div class="register-form">
                             <form method="post" action="login.php">
-                                <div class="form-group">
-                                    <!-- Display validation errors here -->
-		                            <?php include('errors.php'); ?>
+                             <!-- Display validation errors here -->
+                             <?php include('errors.php'); ?>
+                             
+                                <div class="form-group">           
                                     <input type="text" class="form-control" placeholder="Username" name="username">
                                 </div>
 
