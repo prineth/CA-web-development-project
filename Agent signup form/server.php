@@ -13,8 +13,8 @@
     //connect to database
     $db = mysqli_connect('localhost', 'root', '', 'registration');
 
-    //if signup button click
-    if(isset($_POST['signup']))
+    //if register button click
+    if(isset($_POST['regisregisterter']))
     {
         $fullname = mysqli_real_escape_string($db, $_POST['fullname']);
         $username = mysqli_real_escape_string($db, $_POST['username']);
