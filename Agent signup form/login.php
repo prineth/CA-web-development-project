@@ -1,3 +1,4 @@
+<?php include('server.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -22,17 +23,21 @@
                         <div class="col-md-7 register-right">
                             <h2>Signup Here</h2>
                             <div class="register-form">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Username">
+                            <form method="post" action="login.php">
+                             <!-- Display validation errors here -->
+                             <?php include('errors.php'); ?>
+                             
+                                <div class="form-group">           
+                                    <input type="text" class="form-control" placeholder="Username" name="username">
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Password" name="password_1">
+                                    <input type="password" class="form-control" placeholder="Password" name="password">
                                 </div>
                               
-                                    </a><button type="button" class="btn btn-primary">Login</button>
-                                    Do you have an account?<a href="signup.html"> Sign up</a>
-
+                                    </a><button type="submit" class="btn btn-primary" name="login">Login</button>
+                                    Do you have an account?<a href="signup.php"> Sign up</a>
+                            </form>
                             </div>
 
 

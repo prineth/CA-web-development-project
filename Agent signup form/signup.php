@@ -30,31 +30,31 @@
                                 <?php include('errors.php'); ?>
                             <!-- start of inputs -->
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Full Name" name="fullname">
+                                    <input type="text" class="form-control" placeholder="Full Name" name="fullname" value="<?php echo $fullname; ?>">
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Username" name="username">
+                                    <input type="text" class="form-control" placeholder="Username" name="username" value="<?php echo $username; ?>">
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Email" name="email">
+                                    <input type="text" class="form-control" placeholder="Email" name="email" value="<?php echo $email; ?>">
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="date" class="form-control" placeholder="Date of birth" name="dob">
+                                    <input type="date" class="form-control" placeholder="Date of birth" name="dob" value="<?php echo $dob; ?>">
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Address" name="address">
+                                    <input type="text" class="form-control" placeholder="Address" name="address" value="<?php echo $address; ?>">
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="NIC" name="nic">
+                                    <input type="text" class="form-control" placeholder="NIC" name="nic" value="<?php echo $nic; ?>">
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Contact Number" name="contact">
+                                    <input type="tel" class="form-control" placeholder="Contact Number" name="contact" value="<?php echo $contact; ?>">
                                 </div>
 
                                 <div class="form-group">
@@ -67,7 +67,7 @@
 
                                 <button type="submit" class="btn btn-primary" name="signup">Signup</button>
                                 
-                                Already signup? <a href="login.html"> Login</a>
+                                Already signup? <a href="login.php"> Login</a>
                             </form>
                             </div>
 

@@ -16,10 +16,10 @@
                             <h3>Join Us</h3>
                             <p>Travel is fun. It is a fantastic adventure. More than that, however, travel can enrich your life in numerous ways.</p>
                             <button type="button" class="btn btn-primary">About Us</button>
-                            <a href="login.html">
+                            <a href="login.php">
                                 <button type="button" class="btn btn-primary">Login</button>
                             </a>
-                            <a href="signup.html">
+                            <a href="signup.php">
                                 <button type="button" class="btn btn-primary">Signup</button>
                             </a>
                         </div>
