@@ -198,9 +198,10 @@ a.active,a:hover{
 .bigmap{
   height:500px;
   /*background-color:#219c2c;*/
+  width: 100%
     padding-left: 0px;
     margin: 0px;
-    
+   
     /*background-color: #f4f4f4;*/
     
 }
