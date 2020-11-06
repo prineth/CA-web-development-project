@@ -54,7 +54,7 @@ width: 25%;
 }
 
 .d2{
-	background-image: url("images/a.jpg");
+	background-image: url("images/b.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -62,7 +62,7 @@ width: 25%;
 }
 
 .d3{
-	background-image: url("images/a.jpg");
+	background-image: url("images/c.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -70,7 +70,7 @@ width: 25%;
 }
 
 .d4{
-	background-image: url("images/a.jpg");
+	background-image: url("images/d.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -78,7 +78,7 @@ width: 25%;
 }
 
 .d5{
-	background-image: url("images/a.jpg");
+	background-image: url("images/e.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -86,28 +86,28 @@ width: 25%;
 }
 
 .d6{
-	background-image: url("images/a.jpg");
+	background-image: url("images/f.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
 	box-shadow:  5px 5px 15px rgba(0,0,0,0.9);
 }
 .d7{
-	background-image: url("images/a.jpg");
+	background-image: url("images/g.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
 	box-shadow:  5px 5px 15px rgba(0,0,0,0.9);
 }
 .d8{
-	background-image: url("images/a.jpg");
+	background-image: url("images/h.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
 	box-shadow:  5px 5px 15px rgba(0,0,0,0.9);
 }
 .d9{
-	background-image: url("images/a.jpg");
+	background-image: url("images/i.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
