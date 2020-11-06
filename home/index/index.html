@@ -7,9 +7,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="parallex-style.css">
-    <link rel="stylesheet" href="index-style.css">
+    <link rel="stylesheet" href="includes/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="includes/style/parallex-style.css">
+    <link rel="stylesheet" href="includes/style/index-style.css">
     <title>Ristorante Con Fusion</title>
 </head>
 
@@ -19,17 +19,27 @@
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a href="#" class="navbar-brand mr-auto">TravelLanka</a>
+            <a href="#" class="navbar-brand">TravelLanka</a>
             <div class="collapse navbar-collapse" id="Navbar">
+                <form class="form-inline ">
+                    <input class="form-control col-8 col-md-8 mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                  </form>
                 <ul class="navbar-nav mr-auto"> 
-                    <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+                    
+                    <li class="nav-item"><a href="#" class="nav-link"><button type="button" class="btn btn-outline-light">Home</button></a></li>
                     <li class="nav-item"><a href="aboutus.html" class="nav-link">About</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Menu</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">My Trips</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Attraction</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                    <li class="nav-item active"><a href="#" class="nav-link">Login</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Signup</a></li>
+                    
                 </ul>
+
             </div>
-          
+
         </div>
     </nav>
 
@@ -39,27 +49,27 @@
              
         <h1 class="big-title translate" data-speed="0.1">  </h1><!-- TOPIC "travel lanka"-->
 
-        <!--<img src="img/person.png" class="person translate" data-speed="-0.25" alt=""> -->
-        <img src="img/sigiriya/sigiriya.png" class="mountain1 translate" data-speed="-0.2" alt="">
-        <img src="img/sigiriya/sigiriya back2.png" class="mountain2 translate" data-speed="0.4" alt="">
-        <img src="img/sigiriya/far mountain copy2.png" class="mountain3 translate" data-speed="0.3" alt="">
-        <img src="img/sigiriya/sky.png" class="sky translate" data-speed="0.5" alt="">
+        <!--img src="img/person.png" class="person translate" data-speed="-0.25" alt=""-->
+        <img src="includes/img/sigiriya/sigiriya.png" class="mountain1 translate" data-speed="-0.2" alt="">
+        <img src="includes/img/sigiriya/sigiriya back2.png" class="mountain2 translate" data-speed="0.4" alt="">
+        <img src="includes/img/sigiriya/far mountain copy2.png" class="mountain3 translate" data-speed="0.3" alt="">
+        <img src="includes/img/sigiriya/sky.png" class="sky translate" data-speed="0.5" alt="">
     </header>
 
     <section>
         <div class="shadow"></div>
 
         <div class="container">
-            <div class="content opacity">
+            <!--div class="content opacity">
                 <h3 class="title">
                     About
                     <div class="border"></div>
                 </h3>
                 <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque officiis quos expedita ipsa, a quidem inventore voluptates debitis accusamus tenetur qui et voluptas dicta, culpa earum, doloribus odio consectetur consequuntur soluta quasi nobis! Deserunt voluptatum reiciendis iure expedita sequi quisquam laboriosam temporibus exercitationem.</p>
-            </div>
+            </div-->
 
             <div class="imgContainer opacity">
-                <img src="img/image.jpg" alt="">
+                <img src="includes/img/image.jpg" alt="">
             </div>
         </div>
     </section>
@@ -144,10 +154,10 @@
         </div>
     </footer>
   <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="app.js"></script>
+  <script src="includes/node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="includes/node_modules/popper.js/dist/umd/popper.min.js"></script>
+  <script src="includes/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="includes/style/app.js"></script>
 </body>
 
 </html>
