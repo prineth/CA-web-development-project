@@ -37,3 +37,18 @@ body{
 .navbar-dark{
     background-color: #512da8;
 }
+
+ol {
+    background: linear-gradient(to bottom, gold, gold) no-repeat 0 0;
+    background-size: 4px 0%;
+    transition: 2s;
+    margin:1em;
+  }
+  
+  ol:hover {
+    background-size: 4px 100%;
+  }
+
+  .content opacity{
+      margin: 10em;
+  }
