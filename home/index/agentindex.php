@@ -48,8 +48,8 @@
                           <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/about%20us/privacy.html">Privacy Policy</a>
                         </div>
                       </li>
-                    <li class="nav-item active"><a href="file:///C:/xampp/htdocs/CA-web-development-project/home/sign%20in/signin.html" class="nav-link">Login</a></li>
-                    <li class="nav-item"><a href="file:///C:/xampp/htdocs/CA-web-development-project/home/signup(hela)/text.html" class="nav-link">Signup</a></li>
+                    <li class="nav-item"><a href="<?php echo "http://localhost/CA-web-development-project/Agent signup form/login.php"; ?>" class="nav-link">Login</a></li>
+                    <li class="nav-item"><a href="<?php echo "http://localhost/CA-web-development-project/Agent signup form/signup.php"; ?>" class="nav-link">Signup</a></li>
                     
                 </ul>
                  <!--Sarchbar-->
