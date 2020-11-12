@@ -1,11 +1,107 @@
 <html>
 <head>
 <title></title>
+<style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+         }
+    body{
+        background-image:;
+        background-position: center;
+        background-size: cover;
+        font-family: sans-serif;
+        margin-top: 40px;
+        }
+    .regform{
+        width: 800px;
+        background-color: rgb(0,0,0,6);
+        margin:auto;
+        color: #FFFFFF;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .main{
+        background-color: agb(0,0,0,5);
+        width: 800px;
+        margin:auto;
+    }
+
+        form{
+            padding: 10px;
+        }
+    #name{
+        width:100%;
+        height: 100px;
+    }
+
+    .name{
+        margin-left: 25px;
+        margin-top: 30px;
+        width: 125px;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .firstname{
+        position: relative;
+        left:200px;
+        top:-37px;
+        line-height: 40px;
+        border-radius: 40px;
+        padding: 0 22px;
+        font-size: 16px;
+    }
+    .lastname{
+        position: relative;
+        left:417px;
+        top:-80px;
+        line-height: 40px;
+        border-radius: 6px;
+        padding:0 22px;
+        font-size: 16px;
+        color: #555;
+    }
+    .firstlabel{
+        position:relative;
+        color: #E5E5E5;
+        text-transform: capitalize;
+        font-size: 14px;
+        left:203px;
+        top:-45px;
+    }
+    .lastlabel{
+        position:relative;
+        color: #E5E5E5;
+        text-transform: capitalize;
+        font-size: 14px;
+        left:175px;
+        top:-45px;
+    }
+    .company{
+        position: relative;
+        left:200px;
+        top:-37px;
+        line-height:40px;
+        width:532px;
+        border-radius:6px;
+        padding:0 22px;
+        font-size: 16px;
+        color: #555;
+
+    }
+
+</style>
 </head>
 <body>
     <div class="regform"><h1>Plan Your Trip</h1></div>
     <p><b>Get Travel Assisttance from Several ASTA Travel Advisors</b></p>
-    
+    <p>maybe you need help with vaction planning,honeymmon travel, tour packages, europe trips quotes?whatever your need, we can help! not sure which travel adviisor.no worries</p>
+    <p>Recevie multiple replies for from ASTA(American Society of Travel Advisor)travel advissors. you are in control. select how many advisors yu want to get replies form and long you want your request to be active. seriours request only, please.</p>
+
+
+    <p><b>All fields are required</b></p>
     <div class="mane">
         <form>
             <div id="name">
@@ -37,6 +133,18 @@
             </select>
 
             <h2>Are you beginner</h2>
+            <label class="radio">
+               <input class="radio-one" type="radio" checked="checked" name=""> 
+               <span class="checkmark"></span>
+               yes
+            </label>
+            <label class="radio">
+               <input class="radio-two" type="radio" checked="checked" name=""> 
+               <span class="checkmark"></span>
+               no
+            </label>
+
+            <button type="submit">Register</button>
         </form>
     </div>
 </body>
