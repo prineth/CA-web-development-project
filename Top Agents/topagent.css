@@ -94,3 +94,8 @@
     margin: 0 3px;
     transition: .5s;
 }
+.links a:hover 
+{
+    color: white;
+    background-color: tomato;
+}
