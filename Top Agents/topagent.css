@@ -57,9 +57,12 @@
 
 .card img 
 {
+    width:35%;
+    height:120%;
     position: absolute;
     bottom: 0;
     right: 0;
+    transition: .5s;
     user-select: none;
 }
 .card-text 
