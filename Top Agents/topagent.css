@@ -63,5 +63,14 @@
 {
     font-size: 25px;
     font-weight: normal;
-    margin-bottom: 10;
+    margin-bottom: 10px;
+}
+
+.card-text span
+{
+    font-size: 18px;
+    color: tomato;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
 }
