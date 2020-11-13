@@ -1,7 +1,7 @@
 body {
-    width: 100vw;
+    /*width: 100vw;
     height: 100vh;
-    display: flex;
+    display: flex;*/
     align-items: center;
     justify-content: center;
    /* background:url("green-bokeh-background-4.png"); */
@@ -10,8 +10,8 @@ body {
 
 .card {
     display:grid;
-    grid-template-columns: 250px;
-    grid-template-rows: 210px 210px 80px;
+    grid-template-columns: 15.625em;
+    grid-template-rows: 13.125em 13.125em 5.000em;
     grid-template-areas: "image" "text" "stats";
 
     font-family:  Arial, Helvetica, sans-serif;
@@ -20,7 +20,7 @@ body {
     background: white;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
     text-align: center;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 /*CARD IMAGES*/
 /*beach*/
@@ -146,3 +146,9 @@ body {
 margin-right: 95px;
 
 }
+
+.flex-container {
+    display: flex;
+    /*background-color: DodgerBlue;*/
+  }
+  
