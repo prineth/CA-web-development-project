@@ -52,7 +52,7 @@
 }
 .card:hover img
 {
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
 .card img 
@@ -64,6 +64,7 @@
     right: 0;
     transition: .5s;
     user-select: none;
+    transform-origin: bottom right;
 }
 .card-text 
 {
