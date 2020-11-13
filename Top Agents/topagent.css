@@ -42,6 +42,17 @@
     height: 300px;
     border-radius: 20px;
     box-shadow: 0 5px 7px #e2e2e2;
+    user-select: none;
+    cursor: pointer;
+    transition: .5s;
+}
+.card:hover
+{
+    box-shadow: 0 5px 30px #e2e2e2;
+}
+.card:hover img
+{
+    transform: scale(1.02);
 }
 
 .card img 
@@ -49,6 +60,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    user-select: none;
 }
 .card-text 
 {
@@ -73,4 +85,29 @@
     font-weight: bold;
     display: inline-block;
     margin-bottom: 20px;
+}
+
+.card-text p 
+{
+    font-size: 18px;
+    color: gray;
+}
+.links a 
+{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    color: gray;
+    background-color: #e2e2e2;
+    border-radius: 50%;
+    margin: 0 3px;
+    transition: .5s;
+}
+.links a:hover 
+{
+    color: white;
+    background-color: tomato;
 }
