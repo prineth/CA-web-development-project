@@ -88,4 +88,9 @@
     text-align: center;
     line-height: 35px;
     font-size: 18px;
+    color: gray;
+    background-color: #e2e2e2;
+    border-radius: 50%;
+    margin: 0 3px;
+    transition: .5s;
 }
