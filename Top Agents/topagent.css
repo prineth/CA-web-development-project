@@ -36,3 +36,47 @@
     grid-gap: 0 60px;
     
 }
+.card 
+{
+    position: relative;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 5px 7px #e2e2e2;
+}
+
+.card img 
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.card-text 
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.card-text h3
+{
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.card-text span
+{
+    font-size: 18px;
+    color: tomato;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.card-text p 
+{
+    font-size: 18px;
+    color: gray;
+}
