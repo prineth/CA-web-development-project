@@ -42,6 +42,12 @@
     height: 300px;
     border-radius: 20px;
     box-shadow: 0 5px 7px #e2e2e2;
+    user-select: none;
+    cursor: pointer;
+}
+.card:hover
+{
+    box-shadow: 0 5px 30px #e2e2e2;
 }
 
 .card img 
@@ -49,6 +55,7 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    user-select: none;
 }
 .card-text 
 {
