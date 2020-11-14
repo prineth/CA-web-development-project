@@ -73,6 +73,14 @@ body {
     background-size: cover;
 }
 
+/*Waterfalls*/
+.card-image7 {
+    grid-area: image;
+    background: url("images/1.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
 
 
 
