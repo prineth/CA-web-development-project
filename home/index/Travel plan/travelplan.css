@@ -3,8 +3,7 @@
     margin: 0px;
     padding: 0px;
 }
-body 
-{
-    
-
-}
+body {
+    background-image: url("1.jpg");
+    background-color: #cccccc;
+   }
