@@ -64,6 +64,16 @@ body {
     background-size: cover;
 }
 
+/*Golf*/
+.card-image6 {
+    grid-area: image;
+    background: url("images/3.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+
 
 
 .card-text {
@@ -152,3 +162,6 @@ margin-right: 95px;
     /*background-color: DodgerBlue;*/
   }
   
+  a{
+     text-decoration: none;
+}
