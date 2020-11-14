@@ -43,7 +43,7 @@ width: 25%;
 /**divs **/
 
 .d1{
-	background-image: url("images/a.jpg");
+	background-image: url("images/bakers.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -52,7 +52,7 @@ width: 25%;
 }
 
 .d2{
-	background-image: url("images/b.jpg");
+	background-image: url("images/bambarakanda.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -61,7 +61,7 @@ width: 25%;
 }
 
 .d3{
-	background-image: url("images/c.jpg");
+	background-image: url("images/bopath.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -70,7 +70,7 @@ width: 25%;
 }
 
 .d4{
-	background-image: url("images/d.jpg");
+	background-image: url("images/diyaluma.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -79,7 +79,7 @@ width: 25%;
 }
 
 .d5{
-	background-image: url("images/e.jpg");
+	background-image: url("images/dunhinda.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -88,14 +88,14 @@ width: 25%;
 }
 
 .d6{
-	background-image: url("images/f.jpg");
+	background-image: url("images/ramboda.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
 	box-shadow:  5px 5px 15px rgba(0,0,0,0.9);
 }
 .d7{
-	background-image: url("images/g.jpg");
+	background-image: url("images/rawana.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -103,7 +103,7 @@ width: 25%;
 	 border-radius: 10px;
 }
 .d8{
-	background-image: url("images/h.jpg");
+	background-image: url("images/st.clares.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
