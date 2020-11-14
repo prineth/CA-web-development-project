@@ -43,7 +43,7 @@ width: 25%;
 /**divs **/
 
 .d1{
-	background-image: url("images/bakers.jpg");
+	background-image: url("images/a.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -52,63 +52,64 @@ width: 25%;
 }
 
 .d2{
-	background-image: url("images/bambarakanda.jpg");
+	background-image: url("images/b.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
 	box-shadow:  5px 5px 15px rgba(0,0,0,0.9);
-	 border-radius: 10px;
+	border-radius: 10px;
 }
 
 .d3{
-	background-image: url("images/bopath.jpg");
+	background-image: url("images/c.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
 	box-shadow:  5px 5px 15px rgba(0,0,0,0.9);
-	 border-radius: 10px;
+	border-radius: 10px;
 }
 
 .d4{
-	background-image: url("images/diyaluma.jpg");
+	background-image: url("images/d.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
 	box-shadow:  5px 5px 15px rgba(0,0,0,0.9);
-	 border-radius: 10px;
+	border-radius: 10px;
 }
 
 .d5{
-	background-image: url("images/dunhinda.jpg");
+	background-image: url("images/e.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
 	box-shadow:  5px 5px 15px rgba(0,0,0,0.9);
-	 border-radius: 10px;
+	border-radius: 10px;
 }
 
 .d6{
-	background-image: url("images/ramboda.jpg");
+	background-image: url("images/f.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
 	box-shadow:  5px 5px 15px rgba(0,0,0,0.9);
+	border-radius: 10px;
 }
 .d7{
-	background-image: url("images/rawana.jpg");
+	background-image: url("images/g.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
 	box-shadow:  5px 5px 15px rgba(0,0,0,0.9);
-	 border-radius: 10px;
+	border-radius: 10px;
 }
 .d8{
-	background-image: url("images/st.clares.jpg");
+	background-image: url("images/h.jpg");
 	background-size: cover;
 	height: 100%;
 	width: 100%;
 	box-shadow:  5px 5px 15px rgba(0,0,0,0.9);
-	 border-radius: 10px;
+	border-radius: 10px;
 }
 .d9{
 	background-image: url("images/i.jpg");
@@ -116,7 +117,8 @@ width: 25%;
 	height: 100%;
 	width: 100%;
 	box-shadow:  5px 5px 15px rgba(0,0,0,0.9);
-	 border-radius: 10px;
+	border-radius: 10px;
+}
 }
 
 
@@ -130,5 +132,9 @@ width: 25%;
 	color: white;
 	 font-weight: bold;
 	    text-shadow: 2px 2px 5px #000000;
-	     /*font-size: 30px;
+	     /*font-size: 30px;*/
+}
+
+a{
+	text-decoration: none;
 }
