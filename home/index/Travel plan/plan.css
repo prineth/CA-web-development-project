@@ -1,4 +1,35 @@
-body {
-    background-image: url("paper.gif");
-    background-color: #cccccc;
-   }
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-image: url(2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: new time roman;
+}
+h1 
+{
+    font-size: 40px;
+    color: black;
+    margin-top: 250px;
+}
+p 
+{
+    font-size: 17px;
+    color:black;
+}
+
+h3
+{
+    font-size: 25px;
+    color:black;
+}
+.glyphicon-pencil
+{
+    font-size: 35px;
+    color: white;
+}
+ 
