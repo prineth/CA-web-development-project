@@ -26,7 +26,7 @@
 	}
 
 	.main{
-		background-color: rgb(0,0,0,5);
+		background-color: rgb(0,0,0,0,5);
 		width: 800px;
 		margin: auto;
 	}
@@ -45,11 +45,21 @@
 		width: 125px;
 		color: white;
 		font-size: 18px;
-		font-weight: 700px;
+		font-weight: 700;
 
 	}
 
     .firstname{
+        position: relative;
+        left: 200px;
+        top:-37px;
+        line-height: 40px;
+        border-radius:6px;
+        padding: 0 22px;
+        font-size: 16px;
+    }
+
+    .lastname{
         position: relative;
         left: 417px;
         top:-80px;
@@ -57,11 +67,18 @@
         border-radius:6px;
         padding: 0 22px;
         font-size: 16px;
-        color: #555; 
+        color: #555
     }
 
-    .l
-
+    .firstlable{
+        position:relative;
+        color:#E5E5E5;
+        text-transform: capitalize;
+        font-size: 14px;
+        left: 492px;
+        top: -76px;
+        
+    }
 </style>
 </head>
 <body>
@@ -92,10 +109,10 @@
             <input class="email" type="text" name="email">
 
             <h2 class="name">Phone</h2>
-            <input class="code" type="text" name="phone">
+            <input class="code" type="text" name="area_code">
             <label class="area-code">Area Code</label>
             <input class="number" type="text" name="phone">
-            <lablel class="phone-number">Phone number</lablel>
+            <label class="phone-number">Phone number</lablel>
 =======
     <p><b>All fields are required</b></p>
     <div class="main">
@@ -136,6 +153,7 @@
             <option> 29</option>
             <option> 30</option>
             </select>
+
             <h2 class="name">Which Places do yo wish to travel?</h2>
             <input class="company" type="text" name="company">
 
