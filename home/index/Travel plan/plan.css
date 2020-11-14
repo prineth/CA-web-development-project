@@ -32,4 +32,17 @@ h3
     font-size: 35px;
     color: white;
 }
+.col-md-5
+{
+    margin-top: 80px;
+    box-shadow: -1px 1px 60px 10px black;
+    background: rgba(0,0,0,0.4);
+}
+.label
+{
+    font-weight: normal;
+    margin-top: 15px;
+    color: white;
+    font-size: 19px:
+}
  
