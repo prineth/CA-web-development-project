@@ -237,4 +237,14 @@ button:hover
     left: 15%;
 }
 
+.jumbotron
+{   
+padding-top: 0px;
+padding-bottom:0px;
+background-size: cover;
+height:200px;
+ }
 
+#agentTopic{
+    text-shadow: 2px 2px 8px #1f1f1f;
+}
