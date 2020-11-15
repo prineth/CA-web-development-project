@@ -184,3 +184,29 @@ section
 {
    color: #45e19f; 
 }
+
+
+@media screen and (min-width: 700px) 
+{
+    .card-wrapper
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .card
+    {
+        margin: 2rem;
+    }
+
+    @keyframes fadeIn {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
+}
