@@ -74,6 +74,32 @@ body {
 }
 
 
+/*Waterfalls*/
+.card-image7 {
+    grid-area: image;
+    background: url("images/1.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+/*Parks*/
+.card-image8 {
+    grid-area: image;
+    background: url("images/g.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+/*Shopping*/
+.card-image9 {
+    grid-area: image;
+    background: url("images/4.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
 
 
 .card-text {
