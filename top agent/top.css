@@ -207,6 +207,9 @@ section
         to{
             opacity: 1;
         }
+        .card:nth-child(1){
+            animtion: fadeIn .5s .5s backwards;
+        }
     }
     
 }
