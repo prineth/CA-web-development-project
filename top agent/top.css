@@ -124,4 +124,17 @@ section
     text-transform: uppercase;
     color: #eee;
     font-size: 1.4rem;
+    transition: all .5s;
+}
+
+.card .btn:hover 
+{
+    transform: translateY(-2px);
+    box-shadow: .5rem .5rm 2rem rgba(0,0,0,.2);
+}
+
+.card .btn:active
+{
+    transform: translateY(0);
+    box-shadow: none;
 }
