@@ -93,5 +93,15 @@ section
 
 .card h1
 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 1.5rem 0;
+
+}
+.job-title
+{
+    color: #777;
+    font-size: 1.5rem;
+    font-weight: 100;
     
 }
