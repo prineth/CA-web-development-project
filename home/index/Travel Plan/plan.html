@@ -8,68 +8,142 @@
         <title>Plan your trip</title>
     </head>
     <body>
-        <div class="container">
+        <!--div class="container">
             <div class="row">
                 <div class="col-md-7">
                     <h1 class="text-left">Get Travel Assisttance from Several ASTA Travel Advisors</h1> <br>
                     <p class="text-left">Maybe you need help with vaction planning,honeymmon travel, tour packages, europe trips quotes? whatever your need, we can help! not sure which travel adviisor.No worries
                         Recevie multiple replies for from ASTA(American Society of Travel Advisor)travel advissors. you are in control. select how many advisors yu want to get replies form and long you want your request to be active. seriours request only, please.</p>
-                        
-
-
-                        
-                </div>
-                
-                
+          
+                </div>      
             </div>
-           
-           
-        </div>
-        <div class="regform"><h1>Plan your trip here</h1></div>
+        </div-->
+        <div class="regform "><h1>Plan your trip here</h1></div>
         <div class="main">
             <form>
-                <div id="name">
-                    <h2 class="name">Name</h2>
-                    <input class="firstname" type="text" name="first_name"><br>
-                    <label class="firstlabel">First name</label>
-                    <input class="lastname" type="text" name="last_name"><br>
-                    <label class="lastlabel">Last name</label>
-
-                </div>
-                <h2 class="name">Email address</h2>
-                <input class="email" type="Email" name="email adress">
-
-                <h2 class="name">Phone</h2>
-                <input class="code" type="text" name="area_code">
-                <label class="area-code">Area Code</label>
-
-                <input class="number" type="text" name="phone">
-                <label class="phone-number">Phone number</label>
-
-
                 <h2 class="name">Days of your trip</h2>
                 <input class="trip-plan" type="number" name="days of your trip">
-                
-                
-                <h2 id="customer">Do you want a travel agent?</h2>
-
-                <label class="radio">Yes i want
-                    <input type="radio" checked="checked" name="radio">
-                    <span class="checkmark"></span>
-                  </label>
-                  <label class="radio">No i wouldn't
-                    <input type="radio" name="radio">
-                    <span class="checkmark"></span>
-                  </label>
-
-                  <button type="save">Save my plan</button>
-                  <button type="clear">Clear all</button>
-
-                
 
 
+                <h2 class="name">Which places do you wish to visit?</h2><br><br>
+                <input class="places" type="text" name="places">
+
+                <h2 class="name">Which hotels do you select?</h2><br><br>
+                <input class="places" type="text" name="places">
+            
+            <!--do you want travel agent-->
+                  <div class="card bg-transparent border border-light d-inline-flex p-2" id="agent">
+                    <div class="name" class="d-flex justify-content-center">
+                      Do you want an travel agent? 
+                    </div>
+                    <div class="card-body text-light ">
+                        <ul>
+                            <li class="card-text text-light d-flex justify-content-center"> <p  class="card-text text-light">You can chat with them for free</p></li>
+                            <li class="card-text text-light d-flex justify-content-center"> <p  class="card-text text-light">You can discuss about your destination</p></li>
+                        </ul>
+                      
+                      <a href="#!" class="btn btn-primary  d-flex justify-content-center">Yes I'want</a><br>
+                      <a href="#!" class="btn btn-primary  d-flex justify-content-center">No I didn't</a>
+                    </div>
+                  </div>
+
+                  <button type="submit">Save my plan</button>
+                  <button type="reset">Clear all</button>
 
             </form>
+        </div>   
+
+        <!--Agent gigs-->
+        <!--topic-->
+        <div class="jumbotron jumbotron-fluid bg-success text-center">
+            <div class="container ">
+              <h1 class="display-3 text-light" id="agentTopic">Meet your agent</h1>
+              <p class="lead text-light"  id="agentTopic">Click on "Start Chat" to start a chat</p>
+            </div>
+          </div>
+
+          <!--Agent gigs-->
+        <div class="card-deck"> 
+            <div class="card">
+              <img class="card-img-top" src="2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <a href="#" class="btn btn-success">Start chat</a>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-success">Start chat</a>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <a href="#" class="btn btn-success">Start chat</a>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
         </div>
+        <br>
+        <!--SECOND set-->
+        <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <a href="#" class="btn btn-success">Start chat</a>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-success">Start chat</a>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <a href="#" class="btn btn-success">Start chat</a>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+        </div><br>
+
+         <!--pagination-->
+ 
+        <nav aria-label="..."  >
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <a class="page-link" href="#!" tabindex="-1">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#!">1</a></li>
+              <li class="page-item active">
+                <a class="page-link" href="#!">2 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#!">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#!">Next</a>
+              </li>
+            </ul>
+          </nav>
+
+        
+          
+
     </body>
 </html>
