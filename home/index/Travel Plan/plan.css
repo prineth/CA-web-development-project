@@ -193,11 +193,27 @@ form
 
 }
 
-.container 
+.radio
 {
    margin-left: 25px;
    color: white;
    font-size: 18px;
+}
+
+button
+{
+   background-color: red;
+   display: block;
+   margin: 20px 0px 0px 20px;
+   text-align: center;
+   border: 2px solid #366473;
+   border-radius: 12px;
+   padding: 14px 110px;
+   outline: none;
+   color: white;
+   cursor: pointer;
+   transition: 0.25px;
+
 }
 
 
