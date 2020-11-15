@@ -138,3 +138,14 @@ section
     transform: translateY(0);
     box-shadow: none;
 }
+
+.social-media
+{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    margin-top: 1.5rem;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
