@@ -65,3 +65,17 @@ ol {
 .map{
   margin: 10px;
 }
+
+.divz{
+  height: 200px;
+}
+
+.copi{
+  background: #585858;
+  max-width: 100%;
+}
+
+#imagex{
+  width: auto;
+  height: 50px;
+}
