@@ -6,6 +6,7 @@
 	<style>
 	table, th, td {
     border: 1px solid black;
+    width: 20%;
 }
 </style>
 	<title>Document</title>
@@ -28,17 +29,18 @@ $sql = "SELECT postId, postTitle, details, tags FROM gigpost";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-	echo "<table><tr>
-			<th>Post ID</th>
-			<th>Post Title</th>
-			<th>Details</th>
-			<th>Tags</th>
-		</tr>";
+	//echo "<table>";
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "<tr><td>" . $row["postId"] . "</td><td>". $row["postTitle"]. "</td><td>". $row["details"]. "</td><td>". $row["tags"]. "</td></tr>";
+        echo "<table>";
+        echo "<tr><th>". $row["postTitle"]. "</th></tr><tr><td>". $row["details"]. "</td></tr><tr><td>". $row["tags"]. "</td></tr>";
+        echo "</table>";
+        echo "<br>";
     }
-    echo "</table>";
+   // echo "</table>";
+   
+    
+
 } else {
     echo "0 results";
 }
