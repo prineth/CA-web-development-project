@@ -161,6 +161,7 @@
                     </div>
 
                     <!--Start Form-->
+                    <form action="include/server.php" method="post">
                     <div class="container-fluid mt-n10">
                         <div class="card mb-4">
                             <div class="card-header">Create New Post</div>
@@ -168,7 +169,7 @@
                                 <form>
                                     <div class="form-group">
                                         <label for="post-title">Post Title:</label>
-                                        <input class="form-control" id="post-title" type="text" placeholder="Post title ..." />
+                                        <input class="form-control" id="post-title" type="text" placeholder="Post title ..." name="postTitle" />
                                     </div>
                                     <!--div class="form-group">
                                         <label for="post-status">Post Status:</label>
@@ -187,23 +188,24 @@
                                     </div-->
                                     <div class="form-group">
                                         <label for="post-title">Choose photo:</label>
-                                        <input class="form-control" id="post-title" type="file" />
+                                        <input class="form-control" id="post-title" type="file" name="photo" />
                                     </div>
 
                                     <div class="form-group">
                                         <label for="post-content">Post Details:</label>
-                                        <textarea class="form-control" placeholder="Type here..." id="post-content" rows="9"></textarea>
+                                        <textarea class="form-control" placeholder="Type here..." id="post-content" rows="9" name="details"></textarea>
                                     </div>
 
                                     <div class="form-group">
                                         <label for="post-tags">Post Tags:</label>
-                                        <textarea class="form-control" placeholder="Tags..." id="post-tags" rows="3"></textarea>
+                                        <textarea class="form-control" placeholder="Tags..." id="post-tags" rows="3" name="tags"></textarea>
                                     </div>
-                                    <button class="btn btn-primary mr-2 my-1" type="button">Submit now</button>
+                                    <button class="btn btn-primary mr-2 my-1" type="submit">Submit now</button>
                                 </form>
                             </div>
                         </div>
                     </div>
+                    </form>
                     <!--End Form-->
 
                 </main>
