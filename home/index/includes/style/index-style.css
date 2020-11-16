@@ -125,3 +125,17 @@ ol {
   text-decoration: none;
   cursor: pointer;
 }
+
+.logx{
+  background: green;
+  height: 40px;
+
+}
+
+.logc{
+  height: 250px;
+}
+
+.loging{
+  cursor: pointer;
+}

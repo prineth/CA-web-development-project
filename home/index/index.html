@@ -59,23 +59,35 @@
                     <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
                   </form>
 
-  					 <li class="nav-item active nav-link"><!--a href="register/login.php" -->Login<!---/a-->
+  					 <li class="nav-item active nav-link loging" id="myBtn"><!--a href="register/login.php" -->Login<!---/a-->
   					 <!-- The Modal -->
 	                      <div id="myModal" class="modal">
 
                         <!-- Modal content -->
                         <div class="modal-content">
-                          <span class="close">&times;</span>
+                          <span class="close"></span>
                           <div class="container">
-                          <div class="row" style="background: lightblue">
-                             <div class="col-md-6">col-sm-6</div> 
-                             <div class="col-md-6">col-sm-6</div> 
+                          <div class="row ">
+                             <div class="col-md-6 border border-success logc text-success ">
+                             	<h1 class="display-4 font-weight-bold ">Are you a traveller?</h1> 
+                             	<h3>paragraph </h3>
+                             	<div class="bg-success logx">
+                             	<a href="register/login.php"><center><h4 class="bg-success text-white">Login</h4></center></a>
+                             	</div>
+                             </div> 
+                             <div class="col-md-6 border border-dark logc text-dark">
+                             		<h1 class="display-4 font-weight-bold ">Are you a Guid?</h1> 
+                             			<h3>paragraph </h3>
+                             			<div class="bg-dark logx">
+                             			<a href="register/login.php"><center><h4 class="text-white">Login</h4></center></a>
+                             			</div>
+                             </div> 
                           </div>  
                           </div>
                         </div>
                     </li>
                     <!-- Trigger/Open The Modal -->
-					<li><button id="myBtn">Open Modal</button></li>
+					<!--li><button id="myBtn">Open Modal</button></li-->
                     <li class="nav-item"><a href="register/register.php" class="nav-link">Signup</a></li>
                   </ul>
             </div>
