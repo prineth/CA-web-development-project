@@ -129,11 +129,11 @@ ol {
 .logx{
   background: green;
   height: 3em;
-
+  margin-bottom: 1%;
 }
 
 .logc{
-  height: 15em;
+  height: auto;/*20.5em;*/
 }
 
 .loging{
