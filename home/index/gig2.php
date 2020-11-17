@@ -6,7 +6,7 @@
 	<style>
 	table, th, td {
     border: 1px solid black;
-    width: 20%;
+    width: 100%;
 }
 </style>
 	<title>Document</title>
@@ -35,7 +35,7 @@ if ($result->num_rows > 0) {
         echo "<table>";
         echo "<tr><th>". $row["postTitle"]. "</th></tr><tr><td>". $row["details"]. "</td></tr><tr><td>". $row["tags"]. "</td></tr>";
         echo "</table>";
-        echo "<br>";
+        echo "<br><br>";
     }
    // echo "</table>";
    
