@@ -64,7 +64,7 @@ window.onclick = function(event) {
 
 /**Sign up**************************************************/
 //Get the modal
-var modals = document.getElementById("myModals");
+var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtns");
