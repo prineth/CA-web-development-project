@@ -18,8 +18,7 @@ img {vertical-align: middle;}
 .placename{
   width: 100%;
   height:50px;
-  text-align: center;
-     color: white;
+color: white;
    text-shadow: 2px 2px 4px #000000;
   background-color: #219c2c;
    background: linear-gradient(to top, #2acf38 0%, #219c2c  100%)
@@ -321,13 +320,11 @@ table{
 
 
 .star-widget label{
-  font-size: 40px;
+  font-size: 30px;
   color:#444;
   content: '\f005';
   font-family: fontAwesome;
-  padding: 10px;
-  margin-left: 10px;
-  float: right;
+ 
   transition: all 0.2s ease;
 
 }
@@ -354,4 +351,6 @@ input#rate-1:checked ~label{
 .post1{
   background: yellow;
   left:10px;
+  margin: 0px;
+  padding: 0px;
 }
