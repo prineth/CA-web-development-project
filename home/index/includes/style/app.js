@@ -34,7 +34,8 @@ window.addEventListener('scroll', () => {
 
     //border.style.width = `${scroll / (sectionY.top + section_height) * 30}%`;
 })
-/**Sign up**************************************************/
+
+/**Log in**************************************************/
 //Get the modal
 var modal = document.getElementById("myModal");
 
@@ -61,15 +62,12 @@ window.onclick = function(event) {
   }
 }
 
-
-/**Login*************************************************/
-// Get the modal
-
-/*
-var modal = document.getElementById("id01");
+/**Sign up**************************************************/
+//Get the modal
+var modal = document.getElementById("myModals");
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+var btn = document.getElementById("myBtns");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
@@ -90,4 +88,4 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-*/
+
