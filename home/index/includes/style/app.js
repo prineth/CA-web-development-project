@@ -35,7 +35,8 @@ window.addEventListener('scroll', () => {
     //border.style.width = `${scroll / (sectionY.top + section_height) * 30}%`;
 })
 
-if (modal.onclick) 
+
+if (myModal.onclick== true) 
 {
   var modal = document.getElementById("myModal");
 
@@ -64,7 +65,7 @@ window.onclick = function(event) {
 
   
 }
- else if (myBtns.onclick) 
+ else if (myModals.onclick== true) 
  {
   var modal = document.getElementById("myModals");
 
