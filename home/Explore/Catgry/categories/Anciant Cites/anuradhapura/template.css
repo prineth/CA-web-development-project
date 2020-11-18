@@ -15,15 +15,43 @@ img {vertical-align: middle;}
 	  color: #219c2c;
 	  text-align: center;
 }
+
+/*Place name and fav icon <3 */
 .placename{
   width: 100%;
-  height:50px;
-color: white;
-   text-shadow: 2px 2px 4px #000000;
+  height:60px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
   background-color: #219c2c;
-   background: linear-gradient(to top, #2acf38 0%, #219c2c  100%)
+  background: linear-gradient(to top, #2acf38 0%, #219c2c  100%);
+  position: relative;
  
 }
+
+.favnm{
+
+  position: absolute;
+  right: 50px;
+  bottom: 2px;
+
+
+}
+
+.h1name{
+  position: absolute;
+  left:40%;
+  font-size: 40px;
+  top: 5px;
+
+}
+
+.favicon{
+  position: absolute;
+  right:6px;
+  top: 15px;
+}
+
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
