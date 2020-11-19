@@ -36,7 +36,7 @@ window.addEventListener('scroll', () => {
 })
 
 
-if (myModal.onclick) 
+/*if (myModal.onclick) 
 {
   var modal = document.getElementById("myModal");
 
@@ -91,12 +91,12 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-}
+} */
 
 /**Log in**************************************************/
 //Get the modal
 
-/*var modal = document.getElementById("myModal");
+var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
@@ -120,7 +120,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
-*/
+
 /**Sign up**************************************************/
 //Get the modal
 /*
