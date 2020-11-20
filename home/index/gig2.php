@@ -6,7 +6,7 @@
 	<style>
 	table, th, td {
     border: 1px solid black;
-    width: 100%;
+    width: 30%;
 }
 </style>
 	<title>Document</title>
