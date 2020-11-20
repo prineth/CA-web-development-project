@@ -273,3 +273,31 @@ span.psw {
   text-align: center;
   height: 50px;
 }
+
+/****COVID***/
+.coviddiv{
+  width: 100%;
+  background:#FFC5C9; /* #FF7781; */
+  height: 30px;
+}
+
+.coviddiv a{
+  color: black;
+  position: relative;
+}
+
+
+
+
+.colsebutton{
+right: 10px;
+padding: 5px;
+position: absolute;
+width: 30px;
+height: 30px;
+background: #FFC5C9;
+border: none;
+ cursor: pointer;
+
+}
+.colsebutton:hover {background: #FF7781;}

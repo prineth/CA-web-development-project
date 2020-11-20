@@ -243,6 +243,16 @@
   </p>
 </div>
 
+	<div class="covidcontainer">
+    	<div class="coviddiv">
+    		<h6>TRAVEL NOTICE:
+    		<a href="https://covid19.who.int/"> Learn more about COVID-19</a>
+    		<button class="colsebutton">&times;</button>
+    		</h6> 
+    	</div>
+	</div>
+
+    
 
 
     <div class="container">
@@ -461,3 +471,15 @@
                     </li> -->
                     <!-- Trigger/Open The Modal -->
 					<!--li><button id="myBtn">Open Modal</button></li-->
+<!--Covid 19 learn more js close part-->
+
+<script>
+var closebtns = document.getElementsByClassName("coviddiv");
+var i;
+
+for (i = 0; i < closebtns.length; i++) {
+  closebtns[i].addEventListener("click", function() {
+    this.parentElement.style.display = 'none';
+  });
+}
+</script>
