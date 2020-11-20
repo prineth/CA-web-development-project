@@ -36,6 +36,7 @@ body{
 
 .navbar-dark{
     background-color: #512da8;
+    color: white;
 }
 
 ol {
@@ -156,7 +157,6 @@ input[type=text], input[type=password] {
 }
 
 
-
 button:hover {
   opacity: 0.8;
 }
@@ -218,7 +218,8 @@ span.psw {
   background-color: #fefefe;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 85%; /* Could be more or less, depending on screen size */
+  height: 500px;
 }
 
 /* The Close Button (x) */
@@ -262,4 +263,13 @@ span.psw {
   .cancelbtn {
      width: 100%;
   }
+}
+
+.signupdiv{
+  position: absolute;
+  top: 390px;
+  left:30%;
+  width: 500px;
+  text-align: center;
+  height: 50px;
 }
