@@ -42,7 +42,7 @@ header:after{
 
 .mountain1{
     position: absolute;
-    bottom: -100px;
+    bottom: -6.25em;
     width: 1300px;
     right: -150;
     z-index: 19;
