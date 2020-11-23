@@ -36,9 +36,8 @@
 		Already member? <a href="login.php">Sign in</a>
 	</p>
 
-	
+	<div class="input-group">
 		<a href="../index.html">
-			
 			<button type="button" name="register" class="btn">Home</button>
 		</a>
 		
