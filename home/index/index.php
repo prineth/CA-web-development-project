@@ -1,4 +1,4 @@
-<?php include('server.php'); ?>
+<?php include('register/server.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -195,7 +195,7 @@
 <body>
 
     <nav class="navbar navbar-dark navbar-expand-sm bg-success fixed-top">
-        <div class="container">
+        <div class="container-fluid">
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -238,96 +238,79 @@
                     <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
                   </form>
 <!--####################################################################################################################### -->
-                  <!-- login php part CREATE a SESSION >
-                          <?php if (isset($_SESSION['success'])): ?>
-            <div class="error success">
-                <h3>
-                    <?php 
-                        echo $_SESSION['success'];
-                        unset($_SESSION['success']);
-                    ?>
-                </h3>
-            </div>
-        <?php endif ?>
-
-        <?php if (isset($_SESSION["username"])): ?>
-            <p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-            <p><a href="index.php?logout='1'" style="color: red;">Logout</a></p>
-        <?php endif ?-->
+                  <!-- login php part CREATE a SESSION -->
+             
 <!--####################################################################################################################### -->
 
  <!----------Login button----->
 
 	<li class="nav-item active nav-link singup" id="myBtn" style="cursor: pointer;"><!--a href="register/login.php" -->Login<!---/a-->
   					 <!-- The Modal -->
-	                      <div id="myModal" class="modal">
+	            <div id="myModal" class="modal">
 
                         <!-- Modal content -->
-                        <div class="modal-content">
+                    <div class="modal-content">
                           <span class="close"></span>
                           <div class="container">
                           <div class="row ">
                           <div class="col-md-6 border border-success logc text-success ">
                              	<h1 class="display-4 font-weight-bold ">Traveller</h1> 
-                          <div>
+                                
+                                <div>
+                                    <!---form of traveller-->
+                                        <form action="">
+                                        
+                                        </form>
+                                        <div class="container">
+                                            <label for="uname"><b>Username</b></label>
+                                            <input type="text" placeholder="Enter Username" name="uname" required>
 
-                             	
-                               <!---form of traveller-->
-                        <form action="">
-                          
-                        </form>
-                             	    <div class="container">
-                              <label for="uname"><b>Username</b></label>
-                              <input type="text" placeholder="Enter Username" name="uname" required>
-
-									      <label for="psw"><b>Password</b></label>
-									      <input type="password" placeholder="Enter Password" name="psw" required>
-									        
-									      <button type="submit " class="btn btn-outline-success">Login</button>
-									      <label>
-									        <input type="checkbox" checked="checked" name="remember"> Remember me
-									      </label>
+                                            <label for="psw"><b>Password</b></label>
+                                            <input type="password" placeholder="Enter Password" name="psw" required>
+                                                
+                                            <button type="submit " class="btn btn-outline-success">Login</button>
+                                            <label>
+                                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                                            </label>
 									   </div>
                              	</div>
-                             </div> 
-                             <div class="col-md-6 border border-success logc text-dark bg-success">
+                            </div> 
+                        <div class="col-md-6 border border-success logc text-dark bg-success">
                              		<h1 class="display-4 font-weight-bold ">Guide</h1> 
                              			
-                             			<div>
+                            <div>
 
                              	<!---form of guid-->
                              	<form>
                              	    <div class="container">
-                                    <label for="uname"><b>Username</b></label>
-                                    <input type="text" placeholder="Enter Username" name="uname" required>
+                                        <label for="uname"><b>Username</b></label>
+                                        <input type="text" placeholder="Enter Username" name="uname" required>
 
-                                    <label for="psw"><b>Password</b></label>
-                                    <input type="password" placeholder="Enter Password" name="psw" required>
-									        
-                                    <button type="submit" class="btn btn-outline-dark">Login</button>
-                                    <label>
-                                        <input type="checkbox" checked="checked" name="remember"> Remember me
-                                    </label>
-                                  </div>
-                              </form>
+                                        <label for="psw"><b>Password</b></label>
+                                        <input type="password" placeholder="Enter Password" name="psw" required>
+                                                
+                                        <button type="submit" class="btn btn-outline-dark">Login</button>
+                                        <label>
+                                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                                        </label>
+                                    </div>
+                                </form>
                               
-                             </div>
-                             </div> 
-                                   <div class="signupdiv" >
-
-                                         
-                                     
-                                           <h4 class="display-4 font-weight-bold text-dark  ">Click to  <a href="register/signx.html" class="text-light bg-success  border rounded">Signup</h4>
-                                        </a>
-
-                                       
-
+                            </div>
+                        </div> 
+                                    <div class="signupdiv" >
+                                           <h4 class="display-4 font-weight-bold text-dark  ">
+                                               Click to  
+                                               <a href="register/signx.html" class="text-light bg-success  border rounded">
+                                                    Signup
+                                               </a>
+                                            </h4>
                                     </div>
 
                           </div>  
 
-                          </div>
-                        </div>
+                    </div>
+                </div>
                   
                     </li>
  <!----------------------------------------------------------------------->
@@ -366,15 +349,34 @@
                     </li>
                   -->
                      <!--User dropdown-->
+                   
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown"
                             href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                            User</a>
+                            <?php if (isset($_SESSION['success'])): ?>
+                            <div class="error success">
+                                <h3>
+                                    <?php 
+                                        echo $_SESSION['success'];
+                                        unset($_SESSION['success']);
+                                    ?>
+                                </h3>
+                            </div>
+                            <?php endif ?>
+                            <?php if (isset($_SESSION["username"])): ?>
+                            <p>Welcome, <strong><?php echo $_SESSION['username']; ?></strong></p>
+                            <!--p><a href="index.php?logout='1'" style="color: red;">Logout</a></p-->
+                        <?php endif ?>
+                        </a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html">Profile Settings</a>
                             <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html">My Favourite</a>
                             <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html">My Trips</a>
-               				<a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html">Log Out</a>
+                               <a class="dropdown-item"
+                               <?php if (isset($_SESSION["username"])): ?>
+                                <a href="index.php?logout='1'" style="color: red;">Logout</a>
+                                <?php endif ?>
+                            </a>
                         </div>
                     </li>
                 
