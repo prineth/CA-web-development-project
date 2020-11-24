@@ -262,7 +262,7 @@
                                         
                                         
                                         <div class="container">
-                                            <form method="post" action="index.php">
+                                            <form method="post" action="login.php">
                                                 <!-- Display validation errors here -->
 		                                        <?php include('register/errors.php'); ?>
                                                 <label for="uname"><b>Username</b></label>
@@ -378,7 +378,7 @@
                             <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html">My Trips</a>
                                <a class="dropdown-item"
                                <?php if (isset($_SESSION["username"])): ?>
-                                <a href="index.php?logout='1'" style="color: red;">Logout</a>
+                                <a href="../index.php?logout='1'"> Logout </a>
                                 <?php endif ?>
                             </a>
                         </div>

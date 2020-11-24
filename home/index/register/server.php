@@ -83,7 +83,7 @@
 	if (isset($_GET['logout'])){
 		session_destroy();
 		unset($_SESSION['username']);
-		header('location: login.php');// redirect to home page
+		header('location: index.php');// redirect to home page
 	}
 
 	
