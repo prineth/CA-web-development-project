@@ -258,20 +258,24 @@
                                 
                                 <div>
                                     <!---form of traveller-->
-                                        <form action="">
+                                       
                                         
-                                        </form>
+                                        
                                         <div class="container">
-                                            <label for="uname"><b>Username</b></label>
-                                            <input type="text" placeholder="Enter Username" name="uname" required>
+                                            <form method="post" action="index.php">
+                                                <!-- Display validation errors here -->
+		                                        <?php include('register/errors.php'); ?>
+                                                <label for="uname"><b>Username</b></label>
+                                                <input type="text" placeholder="Enter Username" name="username" required>
 
-                                            <label for="psw"><b>Password</b></label>
-                                            <input type="password" placeholder="Enter Password" name="psw" required>
-                                                
-                                            <button type="submit " class="btn btn-outline-success">Login</button>
-                                            <label>
-                                                <input type="checkbox" checked="checked" name="remember"> Remember me
-                                            </label>
+                                                <label for="psw"><b>Password</b></label>
+                                                <input type="password" placeholder="Enter Password" name="password" required>
+                                                    
+                                                <button type="submit " class="btn btn-outline-success" name="login">Login</button>
+                                                <label>
+                                                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                                                </label>
+                                            </form>
 									   </div>
                              	</div>
                             </div> 
