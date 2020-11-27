@@ -26,21 +26,21 @@ body
     box-sizing: border-box;
     display: inline-block;
 }
-
-.container .box .imgBox
+.container .box .imgBox 
 {
     position: relative;
     overflow: hidden;
 }
 
-.container .box .imgBox img 
+.container .box .imgBox img
 {
-    max-width: 100%;
-    transition: transform 2s;
+    max-width: 455px;
+    
+   
 }
 
-.container .box:hover .imgBox img 
-{
-    transform: scale(1.2);
-}
+
+
+
+
 
