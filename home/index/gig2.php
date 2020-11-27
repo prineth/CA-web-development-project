@@ -16,6 +16,9 @@
     table tr:nth-child(even){background-color: #f2f2f2;}
     table tr:hover {background-color: #ddd;}
 }
+    table tbody button{
+        background-color: #4CAF50; /* Green */
+    }
 </style>
 	<title>Document</title>
 </head>
@@ -42,7 +45,7 @@ if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
         echo "<table >";
-        echo "<thead><tr><th>". $row["postTitle"]. "</th></tr></thead><tbody><tr><td>". $row["details"]. "</td></tr><tr><td>". $row["tags"]. "</td></tr><tbody>";
+        echo "<thead><tr><th>". $row["postTitle"]. "</th></tr></thead><tbody><tr><td>". $row["details"]. "</td></tr><tr><td>". $row["tags"]. "</td></tr><tr><td>" . "<button>Start chat</button>"."</td></tr><tbody>";
         echo "</table>";
         echo "<br><br>";
     }
