@@ -716,28 +716,28 @@
                 <div class="col-7 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
-                      121, Clear Water Bay Road<br>
-                      Clear Water Bay, Kowloon<br>
-                      HONG KONG<br>
-                      Tel.: +852 1234 5678<br>
-                      Fax: +852 8765 4321<br>
-                      Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
+                      97/1,i <br>
+                      Dampe, Piliyandala<br>
+                      Srilanka<br>
+                      Tel.: +94 234 5678<br>
+                      Fax: +94 765 4321<br>
+                      Email: <a href="mailto:aroundlanka@gmail.com">aroundlanka@gmail.com</a>
                    </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
+                        <a href="http://google.com/+">Google+</a><br>
+                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a><br>
+                        <a href="http://www.linkedin.com/in/">LinkedIn</a><br>
+                        <a href="http://twitter.com/">Twitter</a><br>
+                        <a href="http://youtube.com/">YouTube</a><br>
+                        <a href="mailto:">Mail</a><br>
                     </div>
                 </div>
            </div>
            <div class="row justify-content-center">             
                 <div class="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                    <p>© Copyright 2020 AroundLanka</p>
                 </div>
            </div>
         </div>
