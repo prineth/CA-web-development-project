@@ -252,7 +252,7 @@
                     <div class="modal-content">
                           <span class="close"></span>
                           <div class="container">
-                          <div class="row ">
+                          <div class="row">
                           <div class="col-md-6 border border-success logc text-success ">
                              	<h1 class="display-4 font-weight-bold ">Traveller</h1> 
                                 
@@ -321,7 +321,7 @@
 
 
 <!------sign up button---------------------------------------------->
-				<a href="register/signx.html" class="text-light "><li class="nav-item active nav-link singup ">Sign up</a>
+				<a href="register/signx.html" class="text-light"><li class="nav-item active nav-link singup ">Sign up</a>
 
 			  		<!--li class="nav-item active nav-link singup" id="myBtns" style="cursor: pointer;"--><!--a href="register/login.php" --><!---/a-->
   					 <!--
