@@ -189,204 +189,57 @@
 
 <body>
 
-    <nav class="navbar navbar-dark navbar-expand-sm bg-success fixed-top">
-        <div class="container-fluid">
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a href="#" class="navbar-brand">AroundlLanka</a>
-            <div class="collapse navbar-collapse" id="Navbar">
-               
-                <ul class="navbar-nav mr-auto"> 
-                    
-                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <!--Attraction dropdown-->
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown"
-                            href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                            Attraction</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html">Explore</a>
-                            <a class="dropdown-item" href="#exname" target="#exname">Best tourist destinations</a>
-                        </div>
-                    </li>
-                  
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <a class="navbar-brand text-light"><b>AroundLanka</b></a>
 
-                    <!--About Us dropdown-->
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown"
-                           href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                           About Us</a>
-                        <div class="dropdown-menu">
-                          <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/about%20us/about/about.html">About Us</a>
-                          <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/about%20us/contact/contact.html">Contact</a>
-                          <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/about%20us/privacy.html">Privacy Policy</a>
-                        </div>
-                      </li>
-                    <!--li class="nav-item active"><a href="register/login.php" class="nav-link">Login</a></li>
-                    <li class="nav-item"><a href="register/register.php" class="nav-link">Signup</a></li-->
-                    
-                
-                 <!--Sarchbar-->
-                 <form class="form-inline ">
-                    <input class="form-control col-8 col-md-8 mr-sm-2" type="text" placeholder="Search">
-                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-                  </form>
-<!--####################################################################################################################### -->
-                  <!-- login php part CREATE a SESSION -->
-             
-<!--####################################################################################################################### -->
-
- <!----------Login button----->
-
-	<li class="nav-item active nav-link singup" id="myBtn" style="cursor: pointer;"><!--a href="register/login.php" -->Login<!---/a-->
-  					 <!-- The Modal -->
-	            <div id="myModal" class="modal">
-
-                        <!-- Modal content -->
-                    <div class="modal-content">
-                          <span class="close"></span>
-                          <div class="container">
-                          <div class="row ">
-                          <div class="col-md-6 border border-success logc text-success ">
-                             	<h1 class="display-4 font-weight-bold ">Traveller</h1> 
-                                
-                                <div>
-                                    <!---form of traveller-->
-                                       
-                                        
-                                        
-                                        <div class="container">
-                                            <form method="post" action="login.php">
-                                                <!-- Display validation errors here -->
-		                                        <?php include('register/errors.php'); ?>
-                                                <label for="uname"><b>Username</b></label>
-                                                <input type="text" placeholder="Enter Username" name="username" required>
-
-                                                <label for="psw"><b>Password</b></label>
-                                                <input type="password" placeholder="Enter Password" name="password" required>
-                                                    
-                                                <button type="submit " class="btn btn-outline-success" name="login">Login</button>
-                                                <label>
-                                                    <input type="checkbox" checked="checked" name="remember"> Remember me
-                                                </label>
-                                            </form>
-									   </div>
-                             	</div>
-                            </div> 
-                        <div class="col-md-6 border border-success logc text-dark bg-success">
-                             		<h1 class="display-4 font-weight-bold ">Guide</h1> 
-                             			
-                            <div>
-
-                             	<!---form of guid-->
-                             	<form>
-                             	    <div class="container">
-                                        <label for="uname"><b>Username</b></label>
-                                        <input type="text" placeholder="Enter Username" name="uname" required>
-
-                                        <label for="psw"><b>Password</b></label>
-                                        <input type="password" placeholder="Enter Password" name="psw" required>
-                                                
-                                        <button type="submit" class="btn btn-outline-dark">Login</button>
-                                        <label>
-                                            <input type="checkbox" checked="checked" name="remember"> Remember me
-                                        </label>
-                                    </div>
-                                </form>
-                              
-                            </div>
-                        </div> 
-                                    <div class="signupdiv" >
-                                           <h4 class="display-4 font-weight-bold text-dark  ">
-                                               Click to  
-                                               <a href="register/signx.html" class="text-light bg-success  border rounded">
-                                                    Signup
-                                               </a>
-                                            </h4>
-                                    </div>
-
-                          </div>  
-
-                    </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
+              <li class="nav-item active">
+                <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Attraction
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Explore</a>
+                  <a class="dropdown-item" href="#">Best Tourist destinations</a>
                 </div>
-                  
-                    </li>
- <!----------------------------------------------------------------------->
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  About us
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">About us</a>
+                  <a class="dropdown-item" href="#">Contact</a>
+                  <a class="dropdown-item" href="#">Privacy Policy</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Sign up</a>
+              </li>
+              
+              <li>&nbsp&nbsp&nbsp</li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#"><b>Welcome</b>, Kamal Perera</a>
+              </li>
+            </ul>
+          </div>
 
+          <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
 
-<!------sign up button---------------------------------------------->
-				<a href="register/signx.html" class="text-light "><li class="nav-item active nav-link singup ">Sign up</a>
-
-			  		<!--li class="nav-item active nav-link singup" id="myBtns" style="cursor: pointer;"--><!--a href="register/login.php" --><!---/a-->
-  					 <!--
-	                      <div id="myModals" class="modal">
-
-                      
-                        <div class="modal-content">
-                          <span class="close"></span> 
-                          <div class="container">
-                          <div class="row ">
-                             <div class="col-md-6 border border-success logc text-success ">
-                             	<h1 class="display-4 font-weight-bold ">Traveller</h1> 
-                             	<h5>Join with us to find out favourite destinations in Sri Lanka and you can easily find out nearby hotels, restuarants, pubs and bars.
-                             	It will make easy to find out travel guide to make your trip smoother.</h5>
-                             	<div class="bg-success logx"  style="margin-top:10%;">
-                             	<a href="register/login.php"><center><h4 class="bg-success text-white">Sign</h4></center></a>
-                             	</div>
-                             </div> 
-                             <div class="col-md-6 border border-success logc text-dark bg-success">
-                             		<h1 class="display-4 font-weight-bold ">Guide</h1> 
-                             			<h5>Post your service as a travel guide and you can get a major benefit like finding customers very easily.</h5>
-                             			<div class="bg-dark logx" style="margin-top:20%;">
-                             			<a href="register/login.php"><center><h4 class="text-white">Sign</h4></center></a>
-                             			</div>
-                             </div> 
-                          </div>  
-                          </div>
-                        </div>
-                    </li>
-                  -->
-                     <!--User dropdown-->
-                   
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown"
-                            href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                            <?php if (isset($_SESSION['success'])): ?>
-                            <div class="error success">
-                                <h3>
-                                    <?php 
-                                        echo $_SESSION['success'];
-                                        unset($_SESSION['success']);
-                                    ?>
-                                </h3>
-                            </div>
-                            <?php endif ?>
-                            <?php if (isset($_SESSION["username"])): ?>
-                            <p>Welcome, <strong><?php echo $_SESSION['username']; ?></strong></p>
-                            <!--p><a href="index.php?logout='1'" style="color: red;">Logout</a></p-->
-                        <?php endif ?>
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html">Profile Settings</a>
-                            <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html">My Favourite</a>
-                            <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html">My Trips</a>
-                               <a class="dropdown-item"
-                                    <?php if (isset($_SESSION["username"])): ?>
-                                        <a href="index.php?logout='1'"> Logout </a>
-                                    <?php endif ?>
-                            </a>
-                        </div>
-                    </li>
-                
-			<!----------------------------------------------------------------------------------------------------------->
-             
-                    </li>
-                  </ul>
-            </div>
-
-        </div>
-    </nav>
+      </nav> 
 
   <!--div class="covidcontainer">
       <div class="coviddiv">
@@ -517,11 +370,8 @@
 ">
                       <h1>Michille Gomes</h1>
                       <p class="job-title">Travel Guide</p>
-                      <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                          Esse, officiis obcaecati asperiores voluptas ducimus est. 
-                          Atque nesciunt eveniet commodi natus eos quo, 
-                          veritatis soluta temporibus repudiandae velit sequi, 
-                          porro doloribus.
+                      <p class="about">All I need to know is your budget, where you would like to go, the time of year, accommodation preferences and personal interests.
+
                         </p>
                         <a href="#" class="btn">Contact</a>
                         <ul class="social-media">
@@ -533,17 +383,12 @@
                   </div>
        </div> 
        <div class="col-3">
-                    <div class="card" style="    
-">
+                    <div class="card" style=" ">
                       <img src="imagez/background 1.jpg" alt="card background" class="card-img" >
                       <img src="imagez/logo2.jpg" alt="profile image" class="profile-img">
                       <h1>Mia Danel </h1>
                       <p class="job-title">Travel Guide</p>
-                      <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                          Esse, officiis obcaecati asperiores voluptas ducimus est. 
-                          Atque nesciunt eveniet commodi natus eos quo, 
-                          veritatis soluta temporibus repudiandae velit sequi, 
-                          porro doloribus.
+                      <p class="about">I LOVE planning trips which, I know, can be an excruciating job for some and that's why I'm here to help! I'm here to save you some time, money and your sanity!
                         </p>
                         <a href="#" class="btn">Contact</a>
                         <ul class="social-media">
@@ -560,12 +405,9 @@
                       <img src="imagez/logo3.jpg" alt="profile image" class="profile-img">
                       <h1>John Bell</h1>
                       <p class="job-title">Travel Guide</p>
-                      <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                          Esse, officiis obcaecati asperiores voluptas ducimus est. 
-                          Atque nesciunt eveniet commodi natus eos quo, 
-                          veritatis soluta temporibus repudiandae velit sequi, 
-                          porro doloribus.
-                        </p>
+                      <p class="about">
+                      You can let me know of a specific region in a country you'd like to visit or I can choose one for you and I will research what to do there. 
+                      </p>
                         <a href="#" class="btn">Contact</a>
                         <ul class="social-media">
                             <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
@@ -581,11 +423,7 @@
                       <img src="imagez/logo4.jpg" alt="profile image" class="profile-img" >
                       <h1>Michille Perera</h1>
                       <p class="job-title">Travel Guide</p>
-                      <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                          Esse, officiis obcaecati asperiores voluptas ducimus est. 
-                          Atque nesciunt eveniet commodi natus eos quo, 
-                          veritatis soluta temporibus repudiandae velit sequi, 
-                          porro doloribus.
+                      <p class="about">The destination can be as specific or vague as you like. Not sure where to go? Let's talk before you order and we can decide on a place that fits your desire!
                         </p>
                         <a href="#" class="btn">Contact</a>
                         <ul class="social-media">
