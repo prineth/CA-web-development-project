@@ -155,12 +155,7 @@
         }
         to{
             opacity: 1;
-        }
-
-
-        
-       
-        
+        }   
         
     }
     .card:nth-child(1)
@@ -252,7 +247,7 @@
                     <div class="modal-content">
                           <span class="close"></span>
                           <div class="container">
-                          <div class="row">
+                          <div class="row ">
                           <div class="col-md-6 border border-success logc text-success ">
                              	<h1 class="display-4 font-weight-bold ">Traveller</h1> 
                                 
@@ -321,7 +316,7 @@
 
 
 <!------sign up button---------------------------------------------->
-				<a href="register/signx.html" class="text-light"><li class="nav-item active nav-link singup ">Sign up</a>
+				<a href="register/signx.html" class="text-light "><li class="nav-item active nav-link singup ">Sign up</a>
 
 			  		<!--li class="nav-item active nav-link singup" id="myBtns" style="cursor: pointer;"--><!--a href="register/login.php" --><!---/a-->
   					 <!--
@@ -377,9 +372,9 @@
                             <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html">My Favourite</a>
                             <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html">My Trips</a>
                                <a class="dropdown-item"
-                               <?php if (isset($_SESSION["username"])): ?>
-                                <a href="../index.php?logout='1'"> Logout </a>
-                                <?php endif ?>
+                                    <?php if (isset($_SESSION["username"])): ?>
+                                        <a href="index.php?logout='1'"> Logout </a>
+                                    <?php endif ?>
                             </a>
                         </div>
                     </li>
@@ -393,11 +388,14 @@
         </div>
     </nav>
 
-    <div id="layoutSidenav_content"></div>
-        <nav class="navbar navbar-dark navbar-expand-sm bg-primary">
-            <a href="User.html"><button>user</button></a>
-        </nav>
-    </div>
+	<div class="covidcontainer" >
+    	<div class="coviddiv" style="position: absolute; top: 120px; z-index: 10;">
+    		<h6>TRAVEL NOTICE:
+    		<a href="https://covid19.who.int/" style="position: absolute; top: 10px; left: 150px; z-index: 10;"> Learn more about COVID-19</a>
+    		<button class="colsebutton" style="position: absolute; top: 0px; left: 1230px; z-index: 10;">&times;</button>
+    		</h6> 
+    	</div>
+	</div>
 
 <!-- parelllex effect -->
     
