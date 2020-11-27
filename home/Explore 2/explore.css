@@ -39,4 +39,7 @@ body
 }
 
 .container .box:hover .imgBox img 
+{
+    transform: scale(1.2);
+}
 
