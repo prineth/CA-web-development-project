@@ -251,10 +251,10 @@
   </div-->
 
 	<div class="covidcontainer">
-    	<div class="coviddiv" style="position: absolute; top: 120px; z-index: 10;">
+    	<div class="coviddiv" style="position: absolute; top: 105px; z-index: 10;">
     		<h6>TRAVEL NOTICE:
-    		<a href="https://covid19.who.int/" style="position: absolute; top: 10px; left: 150px; z-index: 10;"> Learn more about COVID-19</a>
-    		<button class="colsebutton" style="position: absolute; top: 0px; left: 1300px; z-index: 10;">&times;</button>
+    		<a href="https://covid19.who.int/" style="position: absolute; top: 2px; left: 150px; z-index: 10;"> Learn more about COVID-19</a>
+    		<button class="colsebutton" style="position: absolute; top: 0px; left: 1220px; z-index: 10;">&times;</button>
     		</h6> 
     	</div>
 	</div>
@@ -366,8 +366,7 @@
        <div class="col-3">
           <div class="card">
                       <img src="imagez/background 1.jpg" alt="card background" class="card-img">
-                      <img src="imagez/logo1.jpg" alt="profile image" class="profile-img" style=" 
-">
+                      <img src="imagez/logo1.jpg" alt="profile image" class="profile-img" style=" ">
                       <h1>Michille Gomes</h1>
                       <p class="job-title">Travel Guide</p>
                       <p class="about">All I need to know is your budget, where you would like to go, the time of year, accommodation preferences and personal interests.
@@ -539,42 +538,50 @@
     </div>  
   </div>
    <!--footer --->
-    <footer class="footer">
+    <footer class="footer bg-dark">
         <div class="container">
             <div class="row">             
                 <div class="col-4 offset-1 col-sm-2">
-                    <h5>Links</h5>
+                    <h5  style="color:#CECDCD;">Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="aboutus.html">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#" style="text-decoration: none;color:#A4A4A4;">Home</a></li>
+                        <li><a href="aboutus.html" style="text-decoration: none;color:#A4A4A4;">Attraction</a></li>
+                          <ul class="list-unstyled">
+                              <li><a href="#" style="text-decoration: none;color:#848484;">&nbsp Explore</a></li>
+                              <li><a href="#" style="text-decoration: none;color:#848484;">&nbsp Best desinations</a></li>
+                          </ul>
+                        <li><a href="#" style="text-decoration: none;color:#A4A4A4;">About us</a></li>
+                        <ul class="list-unstyled">
+                              <li><a href="#" style="text-decoration: none;color:#848484;">&nbsp About us</a></li>
+                              <li><a href="#" style="text-decoration: none;color:#848484;">&nbsp Contact</a></li>
+                              <li><a href="#" style="text-decoration: none;color:#848484;">&nbsp Privacy Policy</a></li>
+                          </ul>
                     </ul>
                 </div>
                 <div class="col-7 col-sm-5">
-                    <h5>Our Address</h5>
-                    <address>
+                    <h5 style="color:#CECDCD;">Our Address</h5>
+                    <address class="text-muted">
                       97/1,i <br>
                       Dampe, Piliyandala<br>
                       Srilanka<br>
                       Tel.: +94 234 5678<br>
                       Fax: +94 765 4321<br>
-                      Email: <a href="mailto:aroundlanka@gmail.com">aroundlanka@gmail.com</a>
+                      Email: <a href="mailto:aroundlanka@gmail.com" style="text-decoration: none;color:#A4A4A4;">aroundlanka@gmail.com</a>
                    </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a href="http://google.com/+">Google+</a><br>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a><br>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a><br>
-                        <a href="http://twitter.com/">Twitter</a><br>
-                        <a href="http://youtube.com/">YouTube</a><br>
-                        <a href="mailto:">Mail</a><br>
+                        <a href="http://google.com/+" style="text-decoration: none;color:#A4A4A4;">Google+</a><br>
+                        <a href="http://www.facebook.com/profile.php?id=" style="text-decoration: none;color:#A4A4A4;">Facebook</a><br>
+                        <a href="http://www.linkedin.com/in/" style="text-decoration: none;color:#A4A4A4;">LinkedIn</a><br>
+                        <a href="http://twitter.com/" style="text-decoration: none;color:#A4A4A4;">Twitter</a><br>
+                        <a href="http://youtube.com/" style="text-decoration: none;color:#A4A4A4;">YouTube</a><br>
+                        <a href="mailto:" style="text-decoration: none;color:#A4A4A4;">Mail</a><br>
                     </div>
                 </div>
            </div>
            <div class="row justify-content-center">             
-                <div class="col-auto">
+                <div class="col-auto text-secondary">
                     <p>© Copyright 2020 AroundLanka</p>
                 </div>
            </div>
