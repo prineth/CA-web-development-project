@@ -6,6 +6,18 @@
         <link rel="stylesheet" type="text/css" href="js/bootstrap.js">
         <link rel="stylesheet" href="plan.css">
         <title>Plan your trip</title>
+        <style>
+          table, th, td {
+        border: 1px solid black;
+        width: 100%;
+        }
+        table th{
+            background-color: #4CAF50;
+            color: white;
+        }
+        table tr{background-color: #f2f2f2;}
+        table tr:hover {background-color: #ddd;}
+        </style>
     </head>
     <body>
         <!--div class="container">
@@ -14,7 +26,6 @@
                     <h1 class="text-left">Get Travel Assisttance from Several ASTA Travel Advisors</h1> <br>
                     <p class="text-left">Maybe you need help with vaction planning,honeymmon travel, tour packages, europe trips quotes? whatever your need, we can help! not sure which travel adviisor.No worries
                         Recevie multiple replies for from ASTA(American Society of Travel Advisor)travel advissors. you are in control. select how many advisors yu want to get replies form and long you want your request to be active. seriours request only, please.</p>
-          
                 </div>      
             </div>
         </div-->
@@ -126,7 +137,7 @@
 
         <!--php AGENt post-->
 
-        <?php
+<?php
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -147,7 +158,7 @@ if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
         echo "<table >";
-        echo "<thead><tr><th>". $row["postTitle"]. "</th></tr></thead><tbody><tr><td>". $row["details"]. "</td></tr><tr><td>". $row["tags"]. "</td></tr><tr><td>" . "<button>Start chat</button>"."</td></tr><tbody>";
+        echo "<thead><tr><th>". $row["postTitle"]. "</th></tr></thead><tbody><tr><td>". $row["details"]. "</td></tr><tr><td>". $row["tags"]. "</td></tr><tr><th>" . "<button>Start chat</button>"."</th></tr><tbody>";
         echo "</table>";
         echo "<br><br>";
     }
