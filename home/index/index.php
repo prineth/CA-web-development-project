@@ -388,11 +388,20 @@
         </div>
     </nav>
 
-	<div class="covidcontainer" >
+  <!--div class="covidcontainer">
+      <div class="coviddiv">
+        <h6>TRAVEL NOTICE:
+        <a href="https://covid19.who.int/"> Learn more about COVID-19</a>
+        <button class="colsebutton">&times;</button>
+        </h6> 
+      </div>
+  </div-->
+
+	<div class="covidcontainer">
     	<div class="coviddiv" style="position: absolute; top: 120px; z-index: 10;">
     		<h6>TRAVEL NOTICE:
     		<a href="https://covid19.who.int/" style="position: absolute; top: 10px; left: 150px; z-index: 10;"> Learn more about COVID-19</a>
-    		<button class="colsebutton" style="position: absolute; top: 0px; left: 1230px; z-index: 10;">&times;</button>
+    		<button class="colsebutton" style="position: absolute; top: 0px; left: 1300px; z-index: 10;">&times;</button>
     		</h6> 
     	</div>
 	</div>
@@ -453,16 +462,6 @@
     
   </p>
 </div>
-
-	<div class="covidcontainer">
-    	<div class="coviddiv">
-    		<h6>TRAVEL NOTICE:
-    		<a href="https://covid19.who.int/"> Learn more about COVID-19</a>
-    		<button class="colsebutton">&times;</button>
-    		</h6> 
-    	</div>
-	</div>
-
     
 
 
@@ -517,7 +516,7 @@
                       <img src="imagez/logo1.jpg" alt="profile image" class="profile-img" style=" 
 ">
                       <h1>Michille Gomes</h1>
-                      <p class="job-title">Lead Designer</p>
+                      <p class="job-title">Travel Guide</p>
                       <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                           Esse, officiis obcaecati asperiores voluptas ducimus est. 
                           Atque nesciunt eveniet commodi natus eos quo, 
@@ -537,9 +536,9 @@
                     <div class="card" style="    
 ">
                       <img src="imagez/background 1.jpg" alt="card background" class="card-img" >
-                      <img src="imagez/logo1.jpg" alt="profile image" class="profile-img">
-                      <h1>Michille Gomes</h1>
-                      <p class="job-title">Lead Designer</p>
+                      <img src="imagez/logo2.jpg" alt="profile image" class="profile-img">
+                      <h1>Mia Danel </h1>
+                      <p class="job-title">Travel Guide</p>
                       <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                           Esse, officiis obcaecati asperiores voluptas ducimus est. 
                           Atque nesciunt eveniet commodi natus eos quo, 
@@ -558,9 +557,9 @@
      <div class="col-3">
                   <div class="card">
                       <img src="imagez/background 1.jpg" alt="card background" class="card-img">
-                      <img src="imagez/logo1.jpg" alt="profile image" class="profile-img">
-                      <h1>Michille Gomes</h1>
-                      <p class="job-title">Lead Designer</p>
+                      <img src="imagez/logo3.jpg" alt="profile image" class="profile-img">
+                      <h1>John Bell</h1>
+                      <p class="job-title">Travel Guide</p>
                       <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                           Esse, officiis obcaecati asperiores voluptas ducimus est. 
                           Atque nesciunt eveniet commodi natus eos quo, 
@@ -579,9 +578,9 @@
        <div class="col-3">
                     <div class="card">
                       <img src="imagez/background 1.jpg" alt="card background" class="card-img">
-                      <img src="imagez/logo1.jpg" alt="profile image" class="profile-img" >
-                      <h1>Michille Gomes</h1>
-                      <p class="job-title">Lead Designer</p>
+                      <img src="imagez/logo4.jpg" alt="profile image" class="profile-img" >
+                      <h1>Michille Perera</h1>
+                      <p class="job-title">Travel Guide</p>
                       <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                           Esse, officiis obcaecati asperiores voluptas ducimus est. 
                           Atque nesciunt eveniet commodi natus eos quo, 
@@ -603,7 +602,7 @@
 </center>
     <!--slide shaw-->
       <a  name="exname">
-      	<h1 class="display-2 text-secondary col-sm-12 font-weight-bold">Top Trending Destinations</h1>
+      	<h3 class="display-2 text-secondary col-sm-12 font-weight-bold">Top Trending Destinations</h3>
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
