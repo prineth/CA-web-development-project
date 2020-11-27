@@ -63,7 +63,7 @@
           </div>
 
           <!--Agent gigs-->
-        <div class="card-deck"> 
+        <!--div class="card-deck"> 
             <div class="card">
               <img class="card-img-top" src="2.jpg" alt="Card image cap">
               <div class="card-body">
@@ -93,7 +93,7 @@
             </div>
         </div>
         <br>
-        <!--SECOND set-->
+        <!--SECOND set>
         <div class="card-deck">
             <div class="card">
               <img class="card-img-top" src="2.jpg" alt="Card image cap">
@@ -122,7 +122,46 @@
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </div>
-        </div><br>
+        </div><br-->
+
+        <!--php AGENt post-->
+
+        <?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "agent";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "SELECT postId, postTitle, details, tags FROM gigpost";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+	//echo "<table>";
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
+        echo "<table >";
+        echo "<thead><tr><th>". $row["postTitle"]. "</th></tr></thead><tbody><tr><td>". $row["details"]. "</td></tr><tr><td>". $row["tags"]. "</td></tr><tr><td>" . "<button>Start chat</button>"."</td></tr><tbody>";
+        echo "</table>";
+        echo "<br><br>";
+    }
+   // echo "</table>";
+   
+    
+
+} else {
+    echo "0 results";
+}
+
+$conn->close();
+?>
+
 
          <!--pagination-->
  
