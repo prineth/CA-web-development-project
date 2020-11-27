@@ -26,3 +26,14 @@ body
     box-sizing: border-box;
     display: inline-block;
 }
+
+.container .box .imgBox
+{
+    position: relative;
+}
+
+.container .box .imgBox img 
+{
+    max-width: 100%;
+}
+
