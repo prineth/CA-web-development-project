@@ -30,6 +30,7 @@ body
 .container .box .imgBox
 {
     position: relative;
+    overflow: hidden;
 }
 
 .container .box .imgBox img 
