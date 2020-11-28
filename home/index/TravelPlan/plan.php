@@ -173,7 +173,6 @@ if ($result->num_rows > 0) {
 $conn->close();
 ?>
 
-
          <!--pagination-->
  
         <nav aria-label="..."  >
@@ -191,9 +190,55 @@ $conn->close();
               </li>
             </ul>
           </nav>
-
-        
-          
-
+             <!--footer --->
+    <footer class="footer bg-dark">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5  style="color:#CECDCD;">Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" style="text-decoration: none;color:#A4A4A4;">Home</a></li>
+                        <li><a href="aboutus.html" style="text-decoration: none;color:#A4A4A4;">Attraction</a></li>
+                          <ul class="list-unstyled">
+                              <li><a href="#" style="text-decoration: none;color:#848484;">&nbsp Explore</a></li>
+                              <li><a href="#" style="text-decoration: none;color:#848484;">&nbsp Best desinations</a></li>
+                          </ul>
+                        <li><a href="#" style="text-decoration: none;color:#A4A4A4;">About us</a></li>
+                        <ul class="list-unstyled">
+                              <li><a href="#" style="text-decoration: none;color:#848484;">&nbsp About us</a></li>
+                              <li><a href="#" style="text-decoration: none;color:#848484;">&nbsp Contact</a></li>
+                              <li><a href="#" style="text-decoration: none;color:#848484;">&nbsp Privacy Policy</a></li>
+                          </ul>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5 style="color:#CECDCD;">Our Address</h5>
+                    <address class="text-muted">
+                      97/1,i <br>
+                      Dampe, Piliyandala<br>
+                      Srilanka<br>
+                      Tel.: +94 234 5678<br>
+                      Fax: +94 765 4321<br>
+                      Email: <a href="mailto:aroundlanka@gmail.com" style="text-decoration: none;color:#A4A4A4;">aroundlanka@gmail.com</a>
+                   </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a href="http://google.com/+" style="text-decoration: none;color:#A4A4A4;">Google+</a><br>
+                        <a href="http://www.facebook.com/profile.php?id=" style="text-decoration: none;color:#A4A4A4;">Facebook</a><br>
+                        <a href="http://www.linkedin.com/in/" style="text-decoration: none;color:#A4A4A4;">LinkedIn</a><br>
+                        <a href="http://twitter.com/" style="text-decoration: none;color:#A4A4A4;">Twitter</a><br>
+                        <a href="http://youtube.com/" style="text-decoration: none;color:#A4A4A4;">YouTube</a><br>
+                        <a href="mailto:" style="text-decoration: none;color:#A4A4A4;">Mail</a><br>
+                    </div>
+                </div>
+           </div>
+           <div class="row justify-content-center">             
+                <div class="col-auto text-secondary">
+                    <p>© Copyright 2020 AroundLanka</p>
+                </div>
+           </div>
+        </div>
+    </footer>
     </body>
 </html>
