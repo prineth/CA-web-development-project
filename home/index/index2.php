@@ -189,57 +189,35 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-success">
-        <a class="navbar-brand text-light"><b>AroundLanka</b></a>
+<nav>
+    <input type="checkbox" id="check">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
-              <li class="nav-item active">
-                <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Attraction
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Explore</a>
-                  <a class="dropdown-item" href="#">Best Tourist destinations</a>
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  About us
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">About us</a>
-                  <a class="dropdown-item" href="#">Contact</a>
-                  <a class="dropdown-item" href="#">Privacy Policy</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#">Login</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#">Sign up</a>
-              </li>
-              
-              <li>&nbsp&nbsp&nbsp</li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#"><b>Welcome</b>, Kamal Perera</a>
-              </li>
-            </ul>
-          </div>
+    <!--For bars-->
+    <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+    </label>
 
-          <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-        </form>
+    <label class="logo">TravelLanka</label>
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#">My Trips</a></li>
+      <li><a href="#">Attactrion</a></li>
 
-      </nav> 
+      <div class="dropdown">
+        <!--<a class="dropbtn">Dropdown</a>--> 
+        <li><a class="dropbtn" href="#">About us</a></li>
+        <div class="dropdown-content">
+          <a href="#">Contact</a>
+          <a href="#">About us</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      <li><a id="active_login" class="login_hover" href="#">Log in</a></li>
+      <li><a id="active_signup" class="signup_hover" href="#">Sign up</a></li>
+
+    </ul>
+  </nav>
 
   <!--div class="covidcontainer">
       <div class="coviddiv">
