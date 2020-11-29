@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="sidenav">
-        <a href="#" class="topic"><b>Travel Agent</b></a><br>
+        <a href="index.php" class="topic"><b>Travel Agent</b></a><br>
         <a href="all.php" class="active">All posts</a>
         <a href="add new.php">Add new post</a>
         <a href="#">Sign in</a>
