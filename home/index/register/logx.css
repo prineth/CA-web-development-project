@@ -1,0 +1,12 @@
+.logc{
+  height: auto;/*20.5em;*/
+}
+
+.signupdiv{
+  position: absolute;
+  top: 400px;
+  left:30%;
+  width: 500px;
+  text-align: center;
+  height: 50px;
+}
