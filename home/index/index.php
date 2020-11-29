@@ -240,77 +240,7 @@
  <!----------Login button----->
 
 	<li class="nav-item active nav-link singup" id="myBtn" style="cursor: pointer;"><!--a href="register/login.php" -->Login<!---/a-->
-  					 <!-- The Modal -->
-	            <div id="myModal" class="modal">
-
-                        <!-- Modal content -->
-                    <div class="modal-content">
-                          <span class="close"></span>
-                          <div class="container">
-                          <div class="row ">
-                          <div class="col-md-6 border border-success logc text-success ">
-                             	<h1 class="display-4 font-weight-bold ">Traveller</h1> 
-                                
-                                <div>
-                                    <!---form of traveller-->
-                                       
-                                        
-                                        
-                                        <div class="container">
-                                            <form method="post" action="login.php">
-                                                <!-- Display validation errors here -->
-		                                        <?php include('register/errors.php'); ?>
-                                                <label for="uname"><b>Username</b></label>
-                                                <input type="text" placeholder="Enter Username" name="username" required>
-
-                                                <label for="psw"><b>Password</b></label>
-                                                <input type="password" placeholder="Enter Password" name="password" required>
-                                                    
-                                                <button type="submit " class="btn btn-outline-success" name="login">Login</button>
-                                                <label>
-                                                    <input type="checkbox" checked="checked" name="remember"> Remember me
-                                                </label>
-                                            </form>
-									   </div>
-                             	</div>
-                            </div> 
-                        <div class="col-md-6 border border-success logc text-dark bg-success">
-                             		<h1 class="display-4 font-weight-bold ">Guide</h1> 
-                             			
-                            <div>
-
-                             	<!---form of guid-->
-                             	<form>
-                             	    <div class="container">
-                                        <label for="uname"><b>Username</b></label>
-                                        <input type="text" placeholder="Enter Username" name="uname" required>
-
-                                        <label for="psw"><b>Password</b></label>
-                                        <input type="password" placeholder="Enter Password" name="psw" required>
-                                                
-                                        <button type="submit" class="btn btn-outline-dark">Login</button>
-                                        <label>
-                                            <input type="checkbox" checked="checked" name="remember"> Remember me
-                                        </label>
-                                    </div>
-                                </form>
-                              
-                            </div>
-                        </div> 
-                                    <div class="signupdiv" >
-                                           <h4 class="display-4 font-weight-bold text-dark  ">
-                                               Click to  
-                                               <a href="register/signx.html" class="text-light bg-success  border rounded">
-                                                    Signup
-                                               </a>
-                                            </h4>
-                                    </div>
-
-                          </div>  
-
-                    </div>
-                </div>
-                  
+  	
                     </li>
  <!----------------------------------------------------------------------->
 
