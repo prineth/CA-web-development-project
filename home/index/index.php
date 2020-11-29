@@ -239,9 +239,9 @@
 
  <!----------Login button----->
 
-	<li class="nav-item active nav-link singup" id="myBtn" style="cursor: pointer;"><!--a href="register/login.php" -->Login<!---/a-->
+	<a href="register/logx.html"><li class="nav-item active nav-link singup" id="myBtn" style="cursor: pointer;"><!--a href="register/login.php" -->Login<!---/a-->
   	
-                    </li>
+                    </li></a>
  <!----------------------------------------------------------------------->
 
 
