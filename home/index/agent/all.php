@@ -20,15 +20,20 @@ $sql = "SELECT title, details, tags, image_url FROM posts";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
-	//echo "<table>";
+      echo "<table>
+                  <tr>
+                        <th>Title</th>
+                        <th>Image</th>
+                        <th>Post details</th>
+                        <th>Post Tags</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                  </tr>";
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "<table >";
-        echo "<tr><th>". $row["title"]. "</th></tr><tr><td>". $row["details"]. "</td></tr><tr><td>". $row["tags"]. "</td></tr><tr><th>" . "<button>Start chat</button>"."</th></tr><tbody>";
-        echo "</table>";
-        echo "<br><br>";
+      echo "<>"
     }
-   // echo "</table>";
+    echo "</table>";
    
     
 
