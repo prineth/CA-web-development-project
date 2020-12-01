@@ -36,19 +36,19 @@ body {
       background: #ee6002;
   }
   .createTopic{
-    background: #eb8b0e;
+    background: #ee6002;
     color: white;
   }
   
-  label {
+  .uname {
     position: fixed;
-    bottom: 0;
+    bottom: 55px;
     left: 15px;
     font-size: 20px;
     font-weight: 500;
     color: #fca33d;
-    z-index: 5;
   }
+
 
   .footer {
     position: fixed;
