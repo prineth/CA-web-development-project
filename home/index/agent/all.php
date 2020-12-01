@@ -31,7 +31,8 @@ if ($result->num_rows > 0) {
                   </tr>";
     // output data of each row
     while($row = $result->fetch_assoc()) {
-      echo "<>"
+      echo "<tr><td>". $row["title"] ."</td><td>" . $row["image_url"] ."</td><td>". $row["tags"] ."</td><td>" . $row["details"];
+
     }
     echo "</table>";
    
