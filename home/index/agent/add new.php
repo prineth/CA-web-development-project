@@ -3,7 +3,7 @@
       <div class="main">
         <h2 class="createTopic">Create New Post</h2>
 
-       <form action="add new.php" method="post">
+       <form action="all.php" method="post">
            <label for="post title">Post title</label><br>
             <input type="text" placeholder="Post title..."><br>
             <label for="post title">Post Details</label><br>
