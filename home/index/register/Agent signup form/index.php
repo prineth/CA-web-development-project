@@ -14,7 +14,7 @@
     </style>
 </head>
 <body>
-    <h1>HOME PAGE MODER PUKER</h1>
+    <h1>HOME PAGE</h1>
     <!-- Calling user name -->
         <?php if(isset($_SESSION['success'])): ?>
             <h3>

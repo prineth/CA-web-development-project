@@ -1,3 +1,4 @@
+<?php include('../register/Agent signup form/server.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,5 +14,11 @@
         <a href="add new.php">Add new post</a>
         <a href="../register/Agent signup form/signup.php">Sign in</a>
         <a href="../register/Agent signup form/login.php">Log in</a>
-        <label class="uname">Welcome, <b>Prineth</b></label>
+        <?php if (isset($_SESSION["username"])): ?>
+           <a href="index.php?logout='1'" style="color: red;"></a>
+            <label class="uname">Welcome,<br> <b><?php echo $_SESSION["username"] ?></b></label>
+            
+
+        <?php endif ?>
+        <!--label class="uname">Welcome, <b>Prineth</b></label-->
       </div>
