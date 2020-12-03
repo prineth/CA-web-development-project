@@ -14,7 +14,7 @@
             <input type="file" id="img" name="img" accept="image/*"><br>
  
 
-            <button type="submit" value="Submit" class="submit">Submit now</button><br>    
+            <button type="submit" value="Submit" class="submit" name="submit">Submit now</button><br>    
         </form>
       </div>
 

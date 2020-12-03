@@ -118,7 +118,7 @@
                     //log the user in
                     $_SESSION['username'] = $username;
                     $_SESSION['success'] = "you are now logged in";
-                    header('location: index.php');//redirect to home page
+                    header('location: ../../agent/index.php');//redirect to home page
                 }else{
                     array_push($errors, "Wrong username or password");
                     //header('location: login.php');
