@@ -7,78 +7,74 @@
 	<title></title>
   <style type="text/css">
     /*Place name and fav icon <3 */
-.placename{
-  width: 100%;
-  height:60px;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-  background-color: #219c2c;
-  background: linear-gradient(to top, #2acf38 0%, #219c2c  100%);
-  position: relative;
- 
-}
+        a{
+      color: white;
+      text-decoration:none;
+      }
 
-.favnm{
-
-  position: absolute;
-  right: 50px;
-  bottom: 2px;
-
-
-}
-
-.h1name{
-  position: absolute;
-  left:40%;
-  font-size: 40px;
-  top: 5px;
-
-}
-
-.fav-icon{
-  position: absolute;
-  right:6px;
-  top: 15px;
-}
-
-/***************fav icon****/
-
-.this{
-  display: none;
-}
-
-.star-widget input{
-  display: none;
-}
-
-
-.star-widget label{
-  font-size: 30px;
-  color:#444;
-  content: '\f005';
-  font-family: fontAwesome;
- 
-  transition: all 0.2s ease;
-
-}
-
-input:not(:checked) ~ label:hover,
-input:not(:checked) ~ label:hover ~ label{
-  color: #F1184C;
-}
-
-input:checked ~ label{
-  color: #fd4;
-  
-}
-input#rate-1:checked ~label{
-  color: #F1184C;
-  text-shadow: 0 0 5px #952;
-}
+    .favnm{
+      bottom: 35%;
+      }
 
   </style>
 </head>
 <body>
+   <nav>
+    <input type="checkbox" id="check">
+
+    <!--For bars-->
+    <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+    </label>
+
+    <label class="logo">TravelLanka</label>
+    <ul>
+      <li><a href="../../../../../index/index.php">Home</a></li>
+      <div class="dropdown">
+        <!--<a class="dropbtn">Dropdown</a>--> 
+        <li><a class="active" class="dropbtn" href="#">Attraction</a></li>
+        <div class="dropdown-content">
+          <a href="../../../../test 1.html">Explore</a>
+          <a href="#">Best destinations</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <!--<a class="dropbtn">Dropdown</a>--> 
+        <li><a class="dropbtn" href="#">About us</a></li>
+        <div class="dropdown-content">
+          <a href="../../../../../aboutus/contact/contact.html">Contact</a>
+          <a href="../../../../../aboutus/about/about.html">About us</a>
+          <a href="../../../../../aboutus/privacypolicy/policy.html">Privacy Policy</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <!--<a class="dropbtn">Dropdown</a>--> 
+        <li><a class="dropbtn" href="#">Welcome,<b> Naji</b></a></li>
+        <div class="dropdown-content">
+          <a href="#">Profile settings</a>
+          <a href="#">My favourits</a>
+          <a href="#">My trips</a>
+          <a href="#">Log out</a>
+        </div>
+      </div>
+
+      
+          <li><a id="active_login" class="login_hover" href="#">Log in</a></li>
+          <li><a id="active_signup" class="signup_hover" href="#">Sign up</a></li>
+
+
+    </ul>
+  </nav>
+
+        <!-- bread crumbs -->
+  
+    <ul class="breadcrumb">
+      <li><a href="../../../../../index/index.php">Home</a></li>
+      <li><a href="../../../../test 1.html">Explore</a></li>
+      <li><a href="../table.html">Ancient Cities</a></li>
+      <li>Kandy</li>
+    </ul>
   
 <!--Place name and Fav icon-----------------------------------------> 
   <div class="divvv">
@@ -106,7 +102,7 @@ input#rate-1:checked ~label{
     <!--1st Slide Div---------------------------------------------------------->
     <div class="mySlides fade">
       <div class="numbertext">1 / 5</div>
-      <img class="pic" src="images/P1.jpg">
+      <img class="pic" src="images/m1.jpg">
       
     </div>
 
@@ -214,7 +210,55 @@ input#rate-1:checked ~label{
   <h1 class="h1-360">360°</h1>
   <iframe class="img360" src="https://www.google.com/maps/embed?pb=!4v1605003800861!6m8!1m7!1sCAoSLEFGMVFpcE5BYVZ3WDc0VUVaMnZua1FKck1UMU44NFBrUUxJV1BsSGZxRnlq!2m2!1d7.293609!2d80.641325!3f300!4f20!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
-<script type="text/javascript" src="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/Catgry/js/mirissa.js"></script>
+<br><br>
+<footer>
+  <table style="  border: 1px solid black;  width: 100%; background: #383838; color: white; height: 260px;">
+    <tr style="text-align: left; ">
+      <th style="padding-left: 50px;">Links</th>
+      <th>Our Address</th>
+      
+    </tr>
+
+    <tr>
+      <td style="padding-left: 50px;"></br>
+        <dl>
+          <dt><a href="../../../../../index/index.php">Home</a></dt>
+          <dt><a href="#"> Attraction</a></dt>
+          <dd><a href="../../../../test 1.html">Explore</a></dd>
+          <dd><a href="#">Best Destination</a></dd>
+          <dt><a href="#">About Us</a></dt>
+          <dd><a href="#">About Us</a></dd>
+          <dd><a href="#">Contact</a></dd>
+          <dd><a href="#">Privacy Policy</a></dd>
+        </dl>
+      </td>
+      <td>
+        97/1, </br>
+        Dampe Piliyandala</br>
+        Sri Lanka</br>
+        Tel: +94 234 5678 </br>
+        Tel: +94 765 4321 </br>
+        Email: <a href="#" style="color:white;">aroundlnaka@gmail.com</a>
+      </td>
+      <td>
+        <dl>
+          <dd>Google+</dd>
+          <dd>Facebook</dd>
+          <dd>LinkedIn</dd>
+          <dd>Twitter</dd>
+          <dd>Youtube</dd>
+          <dd>Mail</dd>
+        </dl>
+
+      </td>
+    </tr>
+    
+    <tr  style="width: 80%; background: #303030; height: 40px; color: white;" >
+      <th colspan="3" >&#169; Copyright 2020 AroundLanka</th>
+    </tr>
+  </table>
+</footer>
+<script type="text/javascript" src="../../../js/mirissa.js"></script>
 </body>
 </html>
 
