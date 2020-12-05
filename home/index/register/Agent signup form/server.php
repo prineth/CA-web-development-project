@@ -10,11 +10,17 @@
     $contact = "";
     $errors = array();
 
+    //ADD NEW POST
+    $title = "";
+    $details = "";
+    $tags = "";
+    $image_url = "";
+    
     //connect to database
     $db = mysqli_connect('localhost', 'root', '', 'registration');
 
     //if register button click
-    if(isset($_POST['regisregisterter']))
+    if(isset($_POST['register']))
     {
         $fullname = mysqli_real_escape_string($db, $_POST['fullname']);
         $username = mysqli_real_escape_string($db, $_POST['username']);

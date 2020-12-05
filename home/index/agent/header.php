@@ -1,4 +1,4 @@
-<?php include('../register/Agent signup form/server.php'); ?>
+<?php include('server.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
