@@ -8,103 +8,104 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="includes/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Explore/Catgry/css/nav.css">
     <link rel="stylesheet" href="includes/style/parallex-style.css">
     <link rel="stylesheet" href="includes/style/index-style.css">
     <link rel="stylesheet" type="text/css" href="style/top.css">
+    <link rel="stylesheet" href="includes/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <style type="text/css">
-.card h1
-{
-    font-size: 2rem;
-    color: #333;
-    margin: 1.5rem 0;
+        .card h1
+        {
+            font-size: 2rem;
+            color: #333;
+            margin: 1.5rem 0;
 
-}
-.job-title
-{
-    color: #777;
-    font-size: 1rem;
-    font-weight: 300;
-    
-}
+        }
+        .job-title
+        {
+            color: #777;
+            font-size: 1rem;
+            font-weight: 300;
+            
+        }
 
-.about 
-{
-    font-size: 1rem;
-    margin: 1.5rem 0;
-    font-style: italic;
-    text-align: center;
-    color: #333;
-}
+        .about 
+        {
+            font-size: 1rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            text-align: center;
+            color: #333;
+        }
 
-.card .btn 
-{
-    padding: 1rem 2.5rem;
-    background-color: #445ae3;
-    border-radius: 2rem;
-    margin: 1rem 0;
-    text-transform: uppercase;
-    color: #eee;
-    font-size: 1.4rem;
-    transition: all .5s;
-}
+        .card .btn 
+        {
+            padding: 1rem 2.5rem;
+            background-color: #445ae3;
+            border-radius: 2rem;
+            margin: 1rem 0;
+            text-transform: uppercase;
+            color: #eee;
+            font-size: 1.4rem;
+            transition: all .5s;
+        }
 
-.card .btn:hover 
-{
-    transform: translateY(-2px);
-    box-shadow: .5rem .5rm 2rem rgba(0,0,0,.2);
-}
+        .card .btn:hover 
+        {
+            transform: translateY(-2px);
+            box-shadow: .5rem .5rm 2rem rgba(0,0,0,.2);
+        }
 
-.card .btn:active
-{
-    transform: translateY(0);
-    box-shadow: none;
-}
-.social-media
-{
-    width: 100%;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2rem 0;
-    margin-top: 1.5rem;
-    border-top: 1px solid rgba(0,0,0,.1);
-}
+        .card .btn:active
+        {
+            transform: translateY(0);
+            box-shadow: none;
+        }
+        .social-media
+        {
+            width: 100%;
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 2rem 0;
+            margin-top: 1.5rem;
+            border-top: 1px solid rgba(0,0,0,.1);
+        }
 
-.social-media i
-{
-    font-size: 3rem;
-    transition: color .5s;
-}
+        .social-media i
+        {
+            font-size: 3rem;
+            transition: color .5s;
+        }
 
-.fa-facebook-square
-{
-    color: #3b5999;
-}
+        .fa-facebook-square
+        {
+            color: #3b5999;
+        }
 
-.fa-twitter-square
-{
-    color: #55acee;
-}
+        .fa-twitter-square
+        {
+            color: #55acee;
+        }
 
-.fa-instagram
-{
-    color: #e6683c;
-}
-.fa-google-plus-square
-{
-    color: #dd4b39;
-}
+        .fa-instagram
+        {
+            color: #e6683c;
+        }
+        .fa-google-plus-square
+        {
+            color: #dd4b39;
+        }
 
 
 
-.fa-facebook-square:hover,
-.fa-twitter-square:hover,
-.fa-instagram:hover,
-.fa-google-plus-square:hover
-{
-   color: #45e19f; 
-}
+        .fa-facebook-square:hover,
+        .fa-twitter-square:hover,
+        .fa-instagram:hover,
+        .fa-google-plus-square:hover
+        {
+        color: #45e19f; 
+        }
 
 .card{
 	   					width: 100%;
@@ -182,115 +183,7 @@
    
     
 }
-    </style>
-    <style type="text/css">
-      		*{
-		    padding: 0;
-		    margin: 0;
-		    text-decoration: none;
-		    list-style: none;
-		    box-sizing: border-box;
-		}
 
-		body{
-		    font-family: Arial, Helvetica, sans-serif;
-		}
-		nav{
-		    background: #219c2c;
-		    height: 80px;
-		    width:100%;
-		}
-		label.logo{
-		    color: white;
-		    font-size:35px;
-		    line-height: 80px;
-		    padding: 0 100px;
-		    font-weight: bold;
-		}
-		label.logo:hover{
-		    text-shadow: 0px 5px 10px black;
-		    transition: .6s;  
-		}
-		nav ul{
-		    position:absolute;
-		    /*float: right;*/
-		    margin-right:20px;
-		    top: 30px;
-		    left: 30%;
-		}
-		nav ul li{
-		    position:sticky;
-		    display: inline-block;
-		    inline-height:80px;
-		    margin:0 5px;
-
-		}
-		nav ul li a{
-		    color: white;
-		    font-size: 17px;
-		    text-transform: uppercase;
-		    padding:7px 13px;
-		    border-radius: 3px;
-		}
-		a.active,a:hover{
-		    background: #2acf38;
-		    transition: .5s; 
-		}
-
-		.checkbtn{
-		    font-size:30px;
-		    color:white;
-		    float:right;
-		    line-height: 80px;
-		    margin-right:40px;
-		    cursor: pointer;
-		    display:none;
-		}
-
-		#check{
-		    display: none;
-		}
-		/* phone view */
-		@media (max-width:952px){
-		    label.logo{
-		        font-size: 30px;
-		        padding-left:50px;
-		    }
-		    nav ul li a{
-		        font-size:16px;
-		    }
-		}
-
-		@media (max-width:858px){
-		    .checkbtn{
-		        display:block;
-		    }
-		    ul{
-		        position: fixed;
-		        width:100%;
-		        height: 100vh;
-		        background:#2c3e50;
-		        top:70px;
-		        left: -100%;
-		        text-align:center;
-		        transition:all .5s;
-		    }
-		    nav ul li{
-		        display:block;
-		        margin:50px 0;
-		        line-height:30px;
-		    }
-		    nav ul li a{
-		        font-size:20px;
-		    }
-		    a:hover,a.active{
-		        background:none;
-		        color:#2acf38;
-		    }
-		    #check:checked ~ ul{
-		        left: 0;
-		    }
-		}
 
 		/***************Drop down lists******************/
 
