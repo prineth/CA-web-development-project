@@ -14,79 +14,16 @@ img {vertical-align: middle;}
 	  color: #219c2c;
 	  text-align: center;
 }
-
-/*Place name and fav icon <3 */
 .placename{
   width: 100%;
-  height:60px;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
+  height:50px;
+  text-align: center;
+     color: white;
+   text-shadow: 2px 2px 4px #000000;
   background-color: #219c2c;
-  background: linear-gradient(to top, #2acf38 0%, #219c2c  100%);
-  position: relative;
+   background: linear-gradient(to top, #2acf38 0%, #219c2c  100%)
  
 }
-
-.favnm{
-
-  position: absolute;
-  right: 50px;
-  bottom: 2px;
-
-
-}
-
-.h1name{
-  position: absolute;
-  left:40%;
-  font-size: 40px;
-  top: 5px;
-
-}
-
-.fav-icon{
-  position: absolute;
-  right:6px;
-  top: 15px;
-}
-
-/***************fav icon****/
-
-.this{
-  display: none;
-}
-
-.star-widget input{
-  display: none;
-}
-
-
-.star-widget label{
-  font-size: 30px;
-  color:#444;
-  content: '\f005';
-  font-family: fontAwesome;
- 
-  transition: all 0.2s ease;
-
-}
-
-input:not(:checked) ~ label:hover,
-input:not(:checked) ~ label:hover ~ label{
-  color: #F1184C;
-}
-
-input:checked ~ label{
-  color: #fd4;
-  
-}
-input#rate-1:checked ~label{
-  color: #F1184C;
-  text-shadow: 0 0 5px #952;
-}
-
-
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
