@@ -32,7 +32,7 @@ img {vertical-align: middle;}
 
   position: absolute;
   right: 50px;
-  bottom: 2px;
+  bottom: 10px;
 
 
 }
@@ -385,3 +385,5 @@ table{
   margin: 0px;
   padding: 0px;
 }
+
+a{color: white;text-decoration:none;}
