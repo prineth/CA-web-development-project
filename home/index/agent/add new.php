@@ -12,7 +12,6 @@
             <input type="text" placeholder="Tags..."><br>
             <label for="img">Select image:</label>
             <input type="file" id="img" name="img" accept="image/*"><br>
- 
 
             <button type="submit" value="Submit" class="submit" name="submit">Submit now</button><br>    
         </form>
