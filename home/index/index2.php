@@ -376,9 +376,15 @@
 
     <label class="logo">TravelLanka</label>
     <ul>
-      <li><a class="active" href="#">Home</a></li>
-      <li><a href="#">My Trips</a></li>
-      <li><a href="#">Attactrion</a></li>
+      <li><a href="../../../../../index/index.php">Home</a></li>
+      <div class="dropdown">
+        <!--<a class="dropbtn">Dropdown</a>--> 
+        <li><a class="active" class="dropbtn" href="#">Attraction</a></li>
+        <div class="dropdown-content">
+          <a href="../../../../test 1.html">Explore</a>
+          <a href="#">Best destinations</a>
+        </div>
+      </div>
 
       <div class="dropdown">
         <!--<a class="dropbtn">Dropdown</a>--> 
@@ -389,9 +395,21 @@
           <a href="#">Privacy Policy</a>
         </div>
       </div>
-      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-      <li><a id="active_login" class="login_hover" href="#">Log in</a></li>
-      <li><a id="active_signup" class="signup_hover" href="#">Sign up</a></li>
+      <div class="dropdown">
+        <!--<a class="dropbtn">Dropdown</a>--> 
+        <li><a class="dropbtn" href="#">Welcome,<b> Naji</b></a></li>
+        <div class="dropdown-content">
+          <a href="#">Profile settings</a>
+          <a href="#">My favourits</a>
+          <a href="#">My trips</a>
+          <a href="#">Log out</a>
+        </div>
+      </div>
+
+      
+          <li><a id="active_login" class="login_hover" href="#">Log in</a></li>
+          <li><a id="active_signup" class="signup_hover" href="#">Sign up</a></li>
+
 
     </ul>
   </nav>
