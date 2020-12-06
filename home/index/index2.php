@@ -8,11 +8,12 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="includes/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../Explore/Catgry/css/nav.css">
     <link rel="stylesheet" href="includes/style/parallex-style.css">
     <link rel="stylesheet" href="includes/style/index-style.css">
     <link rel="stylesheet" type="text/css" href="style/top.css">
-    <link rel="stylesheet" href="includes/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
     <style type="text/css">
         .card h1
         {
@@ -298,12 +299,8 @@
           <a href="#">Log out</a>
         </div>
       </div>
-
-      
           <li><a id="active_login" class="login_hover" href="#">Log in</a></li>
           <li><a id="active_signup" class="signup_hover" href="#">Sign up</a></li>
-
-
     </ul>
   </nav>
 
@@ -367,23 +364,21 @@
   <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
   <p class="lead"-->
   	<div>
-    <div class="row divz" >
-       <div class="col-md-6 bg-success">
-       	<h1 class="display-4 font-weight-bold text-light">Yes</h1> <br>
-       	<a class="btn btn-light btn-lg" href="file:///C:/xampp/htdocs/CA-web-development-project/home/index/Travel%20Plan/plan.html" role="button">Plan Your Trip</a>
-       </div> 
-       <div class="col-md-6 col-sm-12 border border-success">
-       <h1 class="display-4 font-weight-bold text-success" >No</h1>  <br>
-   		<a class="btn btn-success btn-lg" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html" role="button">Click Explore</a>
-   	</div> 
+        <div class="row divz" >
+        <div class="col-md-6 bg-success">
+            <h1 class="display-4 font-weight-bold text-light">Yes</h1> <br>
+            <a class="btn btn-light btn-lg" href="file:///C:/xampp/htdocs/CA-web-development-project/home/index/Travel%20Plan/plan.html" role="button">Plan Your Trip</a>
+        </div> 
+        <div class="col-md-6 col-sm-12 border border-success">
+        <h1 class="display-4 font-weight-bold text-success" >No</h1>  <br>
+            <a class="btn btn-success btn-lg" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html" role="button">Click Explore</a>
+        </div> 
     </div>
 </div>
     
   </p>
 </div>
     
-
-
     <!--div class="container">
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
@@ -497,7 +492,7 @@
                             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                             <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
                         </ul>
-                  </div>
+                    </div>
        </div> 
     </div>    
 </div>
