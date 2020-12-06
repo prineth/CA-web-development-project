@@ -368,11 +368,11 @@
         <div class="row divz" >
         <div class="col-md-6 bg-success">
             <h1 class="display-4 font-weight-bold text-light">Yes</h1> <br>
-            <a class="btn btn-light btn-lg" href="file:///C:/xampp/htdocs/CA-web-development-project/home/index/Travel%20Plan/plan.html" role="button">Plan Your Trip</a>
+            <a class="btn btn-light btn-lg" href="TravelPlan/plan.php" role="button">Plan Your Trip</a>
         </div> 
         <div class="col-md-6 col-sm-12 border border-success">
         <h1 class="display-4 font-weight-bold text-success" >No</h1>  <br>
-            <a class="btn btn-success btn-lg" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html" role="button">Click Explore</a>
+            <a class="btn btn-success btn-lg" href="../Explore/test 1.html" role="button">Click Explore</a>
         </div> 
     </div>
 </div>
