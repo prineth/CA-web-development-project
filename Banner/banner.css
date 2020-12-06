@@ -4,8 +4,9 @@
 	font-family: sans-serif;
 }
 #header{
-	height: 100vh;
-	background-image: url(images/2.jpg);
+	height: 90vh;
+	width: 100vh;
+	background-image: url(images/4.jpg);
 	background-position: center;
 	background-size: cover;
 }
