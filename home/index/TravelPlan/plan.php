@@ -23,7 +23,7 @@
     </head>
     <body>
 
-                <nav>
+  <nav>
 
     <!--For bars-->
     <input type="checkbox" id="check">
