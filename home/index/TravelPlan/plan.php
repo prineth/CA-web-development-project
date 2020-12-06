@@ -32,7 +32,7 @@
         <i class="fas fa-bars"></i>
     </label>
 
-    <label class="logo">TravelLanka</label>
+    <label class="logo">AroundLanka</label>
     <ul>
       <li><a href="../index2.php">Home</a></li>
       <div class="dropdown">

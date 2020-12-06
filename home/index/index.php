@@ -269,7 +269,7 @@
         <i class="fas fa-bars"></i>
     </label>
 
-    <label class="logo">TravelLanka</label>
+    <label class="logo">AroundLanka</label>
     <ul>
       <li><a class="active" href="#">Home</a></li>
       <div class="dropdown">
