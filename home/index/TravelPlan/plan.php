@@ -2,9 +2,11 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="js/bootstrap.js">
+
         <link rel="stylesheet" href="plan.css">
+        <link rel="stylesheet" href="../../Explore/Catgry/css/nav.css">
+                <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="js/bootstrap.js">
         <title>Plan your trip</title>
         <style>
           table, th, td {
@@ -20,6 +22,64 @@
         </style>
     </head>
     <body>
+
+                <nav>
+
+    <!--For bars-->
+    <input type="checkbox" id="check">
+
+    <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+    </label>
+
+    <label class="logo">TravelLanka</label>
+    <ul>
+      <li><a href="../index2.php">Home</a></li>
+      <div class="dropdown">
+        <!--<a class="dropbtn">Dropdown</a>--> 
+        <li><a class="active" class="dropbtn" href="#">Attraction</a></li>
+        <div class="dropdown-content">
+          <a href="../../../../test 1.html">Explore</a>
+          <a href="#">Best destinations</a>
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <!--<a class="dropbtn">Dropdown</a>--> 
+        <li><a class="dropbtn" href="#">About us</a></li>
+        <div class="dropdown-content">
+          <a href="#">Contact</a>
+          <a href="#">About us</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <!--<a class="dropbtn">Dropdown</a>--> 
+        <li><a class="dropbtn" href="#">Welcome,<b> Naji</b></a></li>
+        <div class="dropdown-content">
+          <a href="#">Profile settings</a>
+          <a href="#">My favourits</a>
+          <a href="#">My trips</a>
+          <a href="#">Log out</a>
+        </div>
+      </div>
+
+      
+          <li><a id="active_login" class="login_hover" href="#">Log in</a></li>
+          <li><a id="active_signup" class="signup_hover" href="#">Sign up</a></li>
+
+
+    </ul>
+  </nav>
+
+        <!-- bread crumbs -->
+  
+    <ul class="breadcrumb">
+      <li><a href="../index2.php">Home</a></li>
+      <li>Trip plan</li>
+   
+    </ul>
+
         <!--div class="container">
             <div class="row">
                 <div class="col-md-7">
@@ -173,7 +233,7 @@ if ($result->num_rows > 0) {
 $conn->close();
 ?>
 
-         <!--pagination-->
+         <!--pagination>
  
         <nav aria-label="..."  >
             <ul class="pagination justify-content-center">
@@ -189,7 +249,7 @@ $conn->close();
                 <a class="page-link" href="#!">Next</a>
               </li>
             </ul>
-          </nav>
+          </nav-->
              <!--footer --->
     <footer class="footer bg-dark">
         <div class="container">
