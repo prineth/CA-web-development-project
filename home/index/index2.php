@@ -9,7 +9,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="includes/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../Explore/Catgry/css/nav.css">
+    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="includes/style/parallex-style.css">
     <link rel="stylesheet" href="includes/style/index-style.css">
     <!--link rel="stylesheet" type="text/css" href="style/top.css"-->
@@ -314,7 +314,7 @@
   </div-->
 
 	<div class="covidcontainer">
-    	<div class="coviddiv" style="position: absolute; top: 105px; z-index: 10;">
+    	<div class="coviddiv" style="position: absolute; top: 0px; z-index: 10;">
     		<h6>TRAVEL NOTICE:
     		<a href="https://covid19.who.int/" style="position: absolute; top: 2px; left: 150px; z-index: 10;"> Learn more about COVID-19</a>
     		<button class="colsebutton" style="position: absolute; top: 0px; left: 1220px; z-index: 10;">&times;</button>
