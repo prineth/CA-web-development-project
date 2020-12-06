@@ -300,8 +300,8 @@
           <a href="#">Log out</a>
         </div>
       </div>
-          <li><a id="active_login" class="login_hover" href="#">Log in</a></li>
-          <li><a id="active_signup" class="signup_hover" href="#">Sign up</a></li>
+          <li><a id="active_login" class="login_hover" href="register/logx.html">Log in</a></li>
+          <li><a id="active_signup" class="signup_hover" href="register/signx.html">Sign up</a></li>
     </ul>
   </nav>
 
@@ -513,7 +513,7 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
-  <a href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/Catgry/categories/Hikes/ella/template.html">
+  <a href="../Explore/Catgry/categories/Hikes/ella/template.html">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="imagez/a.jpg" alt="First slide" style="width:100em; height:40em;">
@@ -524,7 +524,7 @@
 </a>
     </div>
 
-    <a href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/Catgry/categories/waterfalls/diyaluma/template.html">
+    <a href="../Explore/Catgry/categories/waterfalls/diyaluma/template.html">
     <div class="carousel-item">
       <img class="d-block w-100" src="imagez/b.jpg" alt="Second slide" style="width:100em; height:45em;">
    <div class="carousel-caption d-none d-md-block">
@@ -534,7 +534,7 @@
   </a>
     </div>
 
-<a href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/Catgry/categories/Anciant%20Cites/kandy/template.html">
+<a href="../Explore/Catgry/categories/Anciant%20Cites/kandy/template.html">
     <div class="carousel-item">
       <img class="d-block w-100" src="imagez/c.jpg" alt="Third slide"  style="width:100em; height:40em;">
      <div class="carousel-caption d-none d-md-block">
