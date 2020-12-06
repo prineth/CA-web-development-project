@@ -9,102 +9,105 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="includes/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="includes/style/parallex-style.css">
     <link rel="stylesheet" href="includes/style/index-style.css">
-    <link rel="stylesheet" type="text/css" href="style/top.css">
+    <link rel="stylesheet" href="nav.css">
+    <!--link rel="stylesheet" type="text/css" href="style/top.css"-->
+
     <style type="text/css">
-.card h1
-{
-    font-size: 2rem;
-    color: #333;
-    margin: 1.5rem 0;
+        .card h1
+        {
+            font-size: 2rem;
+            color: #333;
+            margin: 1.5rem 0;
 
-}
-.job-title
-{
-    color: #777;
-    font-size: 1rem;
-    font-weight: 300;
-    
-}
+        }
+        .job-title
+        {
+            color: #777;
+            font-size: 1rem;
+            font-weight: 300;
+            
+        }
 
-.about 
-{
-    font-size: 1rem;
-    margin: 1.5rem 0;
-    font-style: italic;
-    text-align: center;
-    color: #333;
-}
+        .about 
+        {
+            font-size: 1rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            text-align: center;
+            color: #333;
+        }
 
-.card .btn 
-{
-    padding: 1rem 2.5rem;
-    background-color: #445ae3;
-    border-radius: 2rem;
-    margin: 1rem 0;
-    text-transform: uppercase;
-    color: #eee;
-    font-size: 1.4rem;
-    transition: all .5s;
-}
+        .card .btn 
+        {
+            padding: 1rem 2.5rem;
+            background-color: #445ae3;
+            border-radius: 2rem;
+            margin: 1rem 0;
+            text-transform: uppercase;
+            color: #eee;
+            font-size: 1.4rem;
+            transition: all .5s;
+        }
 
-.card .btn:hover 
-{
-    transform: translateY(-2px);
-    box-shadow: .5rem .5rm 2rem rgba(0,0,0,.2);
-}
+        .card .btn:hover 
+        {
+            transform: translateY(-2px);
+            box-shadow: .5rem .5rm 2rem rgba(0,0,0,.2);
+        }
 
-.card .btn:active
-{
-    transform: translateY(0);
-    box-shadow: none;
-}
-.social-media
-{
-    width: 100%;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2rem 0;
-    margin-top: 1.5rem;
-    border-top: 1px solid rgba(0,0,0,.1);
-}
+        .card .btn:active
+        {
+            transform: translateY(0);
+            box-shadow: none;
+        }
+        .social-media
+        {
+            width: 100%;
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 2rem 0;
+            margin-top: 1.5rem;
+            border-top: 1px solid rgba(0,0,0,.1);
+        }
 
-.social-media i
-{
-    font-size: 3rem;
-    transition: color .5s;
-}
+        .social-media i
+        {
+            font-size: 3rem;
+            transition: color .5s;
+        }
 
-.fa-facebook-square
-{
-    color: #3b5999;
-}
+        .fa-facebook-square
+        {
+            color: #3b5999;
+        }
 
-.fa-twitter-square
-{
-    color: #55acee;
-}
+        .fa-twitter-square
+        {
+            color: #55acee;
+        }
 
-.fa-instagram
-{
-    color: #e6683c;
-}
-.fa-google-plus-square
-{
-    color: #dd4b39;
-}
+        .fa-instagram
+        {
+            color: #e6683c;
+        }
+        .fa-google-plus-square
+        {
+            color: #dd4b39;
+        }
 
 
 
-.fa-facebook-square:hover,
-.fa-twitter-square:hover,
-.fa-instagram:hover,
-.fa-google-plus-square:hover
-{
-   color: #45e19f; 
-}
+        .fa-facebook-square:hover,
+        .fa-twitter-square:hover,
+        .fa-instagram:hover,
+        .fa-google-plus-square:hover
+        {
+        color: #45e19f; 
+        }
 
 .card{
 	   					width: 100%;
@@ -182,141 +185,125 @@
    
     
 }
-    </style>
+
+
+		/***************Drop down lists******************/
+
+		        /*
+		        .dropbtn {
+		          background-color: #4CAF50;
+		          color: white;
+		          padding: 16px;
+		          font-size: 16px;
+		          border: none;
+		          cursor: pointer;
+		        }
+		        */
+		        .dropdown {
+		            position: relative;
+		            display: inline-block;
+		          }
+		          
+		          .dropdown-content {
+		            display: none;
+		            position: absolute;
+		            background-color: #2acf38;
+		            min-width: 160px;
+		            box-shadow: 10px 8px 16px 10px rgba(0,0,0,0.2);
+		            z-index: 1;
+		            font-family: Arial, Helvetica, sans-serif
+		          }
+		          
+		          .dropdown-content a {
+		            color: rgb(255, 255, 255);
+		            padding: 12px 16px;
+		            text-decoration: none;
+		            display: block;
+		            text-align: center;
+		          }
+		          
+		          .dropdown-content a:hover {background-color: #219c2c}
+		          
+		          .dropdown:hover .dropdown-content {
+		            display: block;
+		          }
+		  
+		          a#active_login{
+		            background: #06380a;
+		            transition: .5s;
+		            
+		          }
+		          a#active_signup{
+		            background: #51ee13;
+		            transition: .5s;
+		           
+		          }
+		       
+		          a.login_hover:hover{
+		          color: #2acf38;
+		          }
+		          
+		          a.signup_hover:hover{
+		          color: #000000;
+		          }
+		          
+  
+  
+         /* 
+          .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+          }
+          */
+      </style>
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>  
     <title>Home</title>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-dark navbar-expand-sm bg-success fixed-top">
-        <div class="container-fluid">
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a href="#" class="navbar-brand">AroundlLanka</a>
-            <div class="collapse navbar-collapse" id="Navbar">
-               
-                <ul class="navbar-nav mr-auto"> 
-                    
-                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <!--Attraction dropdown-->
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown"
-                            href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                            Attraction</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html">Explore</a>
-                            <a class="dropdown-item" href="#exname" target="#exname">Best tourist destinations</a>
-                        </div>
-                    </li>
-                  
+<nav>
+    <input type="checkbox" id="check">
 
-                    <!--About Us dropdown-->
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown"
-                           href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                           About Us</a>
-                        <div class="dropdown-menu">
-                          <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/about%20us/about/about.html">About Us</a>
-                          <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/about%20us/contact/contact.html">Contact</a>
-                          <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/about%20us/privacy.html">Privacy Policy</a>
-                        </div>
-                      </li>
-                    <!--li class="nav-item active"><a href="register/login.php" class="nav-link">Login</a></li>
-                    <li class="nav-item"><a href="register/register.php" class="nav-link">Signup</a></li-->
-                    
-                
-                 <!--Sarchbar-->
-                 <form class="form-inline ">
-                    <input class="form-control col-8 col-md-8 mr-sm-2" type="text" placeholder="Search">
-                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-                  </form>
-<!--####################################################################################################################### -->
-                  <!-- login php part CREATE a SESSION -->
-             
-<!--####################################################################################################################### -->
+    <!--For bars-->
+    <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+    </label>
 
- <!----------Login button----->
-
-	<a href="register/logx.html"><li class="nav-item active nav-link singup" id="myBtn" style="cursor: pointer;"><!--a href="register/login.php" -->Login<!---/a-->
-  	
-                    </li></a>
- <!----------------------------------------------------------------------->
-
-
-<!------sign up button---------------------------------------------->
-				<a href="register/signx.html" class="text-light "><li class="nav-item active nav-link singup ">Sign up</a>
-
-			  		<!--li class="nav-item active nav-link singup" id="myBtns" style="cursor: pointer;"--><!--a href="register/login.php" --><!---/a-->
-  					 <!--
-	                      <div id="myModals" class="modal">
-
-                      
-                        <div class="modal-content">
-                          <span class="close"></span> 
-                          <div class="container">
-                          <div class="row ">
-                             <div class="col-md-6 border border-success logc text-success ">
-                             	<h1 class="display-4 font-weight-bold ">Traveller</h1> 
-                             	<h5>Join with us to find out favourite destinations in Sri Lanka and you can easily find out nearby hotels, restuarants, pubs and bars.
-                             	It will make easy to find out travel guide to make your trip smoother.</h5>
-                             	<div class="bg-success logx"  style="margin-top:10%;">
-                             	<a href="register/login.php"><center><h4 class="bg-success text-white">Sign</h4></center></a>
-                             	</div>
-                             </div> 
-                             <div class="col-md-6 border border-success logc text-dark bg-success">
-                             		<h1 class="display-4 font-weight-bold ">Guide</h1> 
-                             			<h5>Post your service as a travel guide and you can get a major benefit like finding customers very easily.</h5>
-                             			<div class="bg-dark logx" style="margin-top:20%;">
-                             			<a href="register/login.php"><center><h4 class="text-white">Sign</h4></center></a>
-                             			</div>
-                             </div> 
-                          </div>  
-                          </div>
-                        </div>
-                    </li>
-                  -->
-                     <!--User dropdown-->
-                   
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown"
-                            href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                            <?php if (isset($_SESSION['success'])): ?>
-                            <div class="error success">
-                                <h3>
-                                    <?php 
-                                        echo $_SESSION['success'];
-                                        unset($_SESSION['success']);
-                                    ?>
-                                </h3>
-                            </div>
-                            <?php endif ?>
-                            <?php if (isset($_SESSION["username"])): ?>
-                            <p>Welcome, <strong><?php echo $_SESSION['username']; ?></strong></p>
-                            <!--p><a href="index.php?logout='1'" style="color: red;">Logout</a></p-->
-                        <?php endif ?>
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html">Profile Settings</a>
-                            <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html">My Favourite</a>
-                            <a class="dropdown-item" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html">My Trips</a>
-                               <a class="dropdown-item"
-                                    <?php if (isset($_SESSION["username"])): ?>
-                                        <a href="index.php?logout='1'"> Logout </a>
-                                    <?php endif ?>
-                            </a>
-                        </div>
-                    </li>
-                
-			<!----------------------------------------------------------------------------------------------------------->
-             
-                    </li>
-                  </ul>
-            </div>
-
+    <label class="logo">TravelLanka</label>
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <div class="dropdown">
+        <!--<a class="dropbtn">Dropdown</a>--> 
+        <li><a class="dropbtn" href="#">Attraction</a></li>
+        <div class="dropdown-content">
+          <a href="../Explore/test 1.html">Explore</a>
+          <a href="#">Best destinations</a>
         </div>
-    </nav>
+      </div>
+
+      <div class="dropdown">
+        <!--<a class="dropbtn">Dropdown</a>--> 
+        <li><a class="dropbtn" href="#">About us</a></li>
+        <div class="dropdown-content">
+          <a href="#">Contact</a>
+          <a href="#">About us</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <!--<a class="dropbtn">Dropdown</a>--> 
+        <li><a class="dropbtn" href="#">Welcome,<b> Naji</b></a></li>
+        <div class="dropdown-content">
+          <a href="#">Profile settings</a>
+          <a href="#">My favourits</a>
+          <a href="#">My trips</a>
+          <a href="#">Log out</a>
+        </div>
+      </div>
+          <li><a id="active_login" class="login_hover" href="#">Log in</a></li>
+          <li><a id="active_signup" class="signup_hover" href="#">Sign up</a></li>
+    </ul>
+  </nav>
 
   <!--div class="covidcontainer">
       <div class="coviddiv">
@@ -328,10 +315,10 @@
   </div-->
 
 	<div class="covidcontainer">
-    	<div class="coviddiv" style="position: absolute; top: 120px; z-index: 10;">
+    	<div class="coviddiv" style="position: absolute; top: 0px; z-index: 10;">
     		<h6>TRAVEL NOTICE:
-    		<a href="https://covid19.who.int/" style="position: absolute; top: 10px; left: 150px; z-index: 10;"> Learn more about COVID-19</a>
-    		<button class="colsebutton" style="position: absolute; top: 0px; left: 1150px; z-index: 10;">&times;</button>
+    		<a href="https://covid19.who.int/" style="position: absolute; top: 2px; left: 150px; z-index: 10;"> Learn more about COVID-19</a>
+    		<button class="colsebutton" style="position: absolute; top: 0px; left: 1220px; z-index: 10;">&times;</button>
     		</h6> 
     	</div>
 	</div>
@@ -378,23 +365,21 @@
   <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
   <p class="lead"-->
   	<div>
-    <div class="row divz" >
-       <div class="col-md-6 bg-success">
-       	<h1 class="display-4 font-weight-bold text-light">Yes</h1> <br>
-       	<a class="btn btn-light btn-lg" href="file:///C:/xampp/htdocs/CA-web-development-project/home/index/Travel%20Plan/plan.php" role="button">Plan Your Trip</a>
-       </div> 
-       <div class="col-md-6 col-sm-12 border border-success">
-       <h1 class="display-4 font-weight-bold text-success" >No</h1>  <br>
-   		<a class="btn btn-success btn-lg" href="file:///C:/xampp/htdocs/CA-web-development-project/home/Explore/test%201.html" role="button">Click Explore</a>
-   	</div> 
+        <div class="row divz" >
+        <div class="col-md-6 bg-success">
+            <h1 class="display-4 font-weight-bold text-light">Yes</h1> <br>
+            <a class="btn btn-light btn-lg" href="TravelPlan/plan.php" role="button">Plan Your Trip</a>
+        </div> 
+        <div class="col-md-6 col-sm-12 border border-success">
+        <h1 class="display-4 font-weight-bold text-success" >No</h1>  <br>
+            <a class="btn btn-success btn-lg" href="../Explore/test 1.html" role="button">Click Explore</a>
+        </div> 
     </div>
 </div>
     
   </p>
 </div>
     
-
-
     <!--div class="container">
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
@@ -443,15 +428,11 @@
        <div class="col-3">
           <div class="card">
                       <img src="imagez/background 1.jpg" alt="card background" class="card-img">
-                      <img src="imagez/logo1.jpg" alt="profile image" class="profile-img" style=" 
-">
+                      <img src="imagez/logo1.jpg" alt="profile image" class="profile-img" style=" ">
                       <h1>Michille Gomes</h1>
                       <p class="job-title">Travel Guide</p>
-                      <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                          Esse, officiis obcaecati asperiores voluptas ducimus est. 
-                          Atque nesciunt eveniet commodi natus eos quo, 
-                          veritatis soluta temporibus repudiandae velit sequi, 
-                          porro doloribus.
+                      <p class="about">All I need to know is your budget, where you would like to go, the time of year, accommodation preferences and personal interests.
+
                         </p>
                         <a href="#" class="btn">Contact</a>
                         <ul class="social-media">
@@ -463,17 +444,12 @@
                   </div>
        </div> 
        <div class="col-3">
-                    <div class="card" style="    
-">
+                    <div class="card" style=" ">
                       <img src="imagez/background 1.jpg" alt="card background" class="card-img" >
                       <img src="imagez/logo2.jpg" alt="profile image" class="profile-img">
                       <h1>Mia Danel </h1>
                       <p class="job-title">Travel Guide</p>
-                      <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                          Esse, officiis obcaecati asperiores voluptas ducimus est. 
-                          Atque nesciunt eveniet commodi natus eos quo, 
-                          veritatis soluta temporibus repudiandae velit sequi, 
-                          porro doloribus.
+                      <p class="about">I LOVE planning trips which, I know, can be an excruciating job for some and that's why I'm here to help! I'm here to save you some time, money and your sanity!
                         </p>
                         <a href="#" class="btn">Contact</a>
                         <ul class="social-media">
@@ -490,12 +466,9 @@
                       <img src="imagez/logo3.jpg" alt="profile image" class="profile-img">
                       <h1>John Bell</h1>
                       <p class="job-title">Travel Guide</p>
-                      <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                          Esse, officiis obcaecati asperiores voluptas ducimus est. 
-                          Atque nesciunt eveniet commodi natus eos quo, 
-                          veritatis soluta temporibus repudiandae velit sequi, 
-                          porro doloribus.
-                        </p>
+                      <p class="about">
+                      You can let me know of a specific region in a country you'd like to visit or I can choose one for you and I will research what to do there. 
+                      </p>
                         <a href="#" class="btn">Contact</a>
                         <ul class="social-media">
                             <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
@@ -511,11 +484,7 @@
                       <img src="imagez/logo4.jpg" alt="profile image" class="profile-img" >
                       <h1>Michille Perera</h1>
                       <p class="job-title">Travel Guide</p>
-                      <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                          Esse, officiis obcaecati asperiores voluptas ducimus est. 
-                          Atque nesciunt eveniet commodi natus eos quo, 
-                          veritatis soluta temporibus repudiandae velit sequi, 
-                          porro doloribus.
+                      <p class="about">The destination can be as specific or vague as you like. Not sure where to go? Let's talk before you order and we can decide on a place that fits your desire!
                         </p>
                         <a href="#" class="btn">Contact</a>
                         <ul class="social-media">
@@ -524,7 +493,7 @@
                             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                             <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
                         </ul>
-                  </div>
+                    </div>
        </div> 
     </div>    
 </div>
@@ -631,42 +600,50 @@
     </div>  
   </div>
    <!--footer --->
-    <footer class="footer">
+    <footer class="footer bg-dark">
         <div class="container">
             <div class="row">             
                 <div class="col-4 offset-1 col-sm-2">
-                    <h5>Links</h5>
+                    <h5  style="color:#CECDCD;">Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="aboutus.html">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#" style="text-decoration: none;color:#A4A4A4;">Home</a></li>
+                        <li><a href="aboutus.html" style="text-decoration: none;color:#A4A4A4;">Attraction</a></li>
+                          <ul class="list-unstyled">
+                              <li><a href="#" style="text-decoration: none;color:#848484;">&nbsp Explore</a></li>
+                              <li><a href="#" style="text-decoration: none;color:#848484;">&nbsp Best desinations</a></li>
+                          </ul>
+                        <li><a href="#" style="text-decoration: none;color:#A4A4A4;">About us</a></li>
+                        <ul class="list-unstyled">
+                              <li><a href="#" style="text-decoration: none;color:#848484;">&nbsp About us</a></li>
+                              <li><a href="#" style="text-decoration: none;color:#848484;">&nbsp Contact</a></li>
+                              <li><a href="#" style="text-decoration: none;color:#848484;">&nbsp Privacy Policy</a></li>
+                          </ul>
                     </ul>
                 </div>
                 <div class="col-7 col-sm-5">
-                    <h5>Our Address</h5>
-                    <address>
+                    <h5 style="color:#CECDCD;">Our Address</h5>
+                    <address class="text-muted">
                       97/1,i <br>
                       Dampe, Piliyandala<br>
                       Srilanka<br>
                       Tel.: +94 234 5678<br>
                       Fax: +94 765 4321<br>
-                      Email: <a href="mailto:aroundlanka@gmail.com">aroundlanka@gmail.com</a>
+                      Email: <a href="mailto:aroundlanka@gmail.com" style="text-decoration: none;color:#A4A4A4;">aroundlanka@gmail.com</a>
                    </address>
                 </div>
                 <div class="col-12 col-sm-4 align-self-center">
                     <div class="text-center">
-                        <a href="http://google.com/+">Google+</a><br>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a><br>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a><br>
-                        <a href="http://twitter.com/">Twitter</a><br>
-                        <a href="http://youtube.com/">YouTube</a><br>
-                        <a href="mailto:">Mail</a><br>
+                        <a href="http://google.com/+" style="text-decoration: none;color:#A4A4A4;">Google+</a><br>
+                        <a href="http://www.facebook.com/profile.php?id=" style="text-decoration: none;color:#A4A4A4;">Facebook</a><br>
+                        <a href="http://www.linkedin.com/in/" style="text-decoration: none;color:#A4A4A4;">LinkedIn</a><br>
+                        <a href="http://twitter.com/" style="text-decoration: none;color:#A4A4A4;">Twitter</a><br>
+                        <a href="http://youtube.com/" style="text-decoration: none;color:#A4A4A4;">YouTube</a><br>
+                        <a href="mailto:" style="text-decoration: none;color:#A4A4A4;">Mail</a><br>
                     </div>
                 </div>
            </div>
            <div class="row justify-content-center">             
-                <div class="col-auto">
+                <div class="col-auto text-secondary">
                     <p>© Copyright 2020 AroundLanka</p>
                 </div>
            </div>
