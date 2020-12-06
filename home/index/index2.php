@@ -9,9 +9,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="includes/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="nav.css">
+
     <link rel="stylesheet" href="includes/style/parallex-style.css">
     <link rel="stylesheet" href="includes/style/index-style.css">
+    <link rel="stylesheet" href="nav.css">
     <!--link rel="stylesheet" type="text/css" href="style/top.css"-->
 
     <style type="text/css">
