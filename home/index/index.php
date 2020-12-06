@@ -467,7 +467,7 @@
                       <h1>John Bell</h1>
                       <p class="job-title">Travel Guide</p>
                       <p class="about">
-                      You can let me know of a specific region in a country you'd like to visit or I can choose one for you and I will research what to do there. 
+                        You can let me know of a specific region in a country you'd like to visit or I can choose one for you and I will research what to do there. 
                       </p>
                         <a href="#" class="btn">Contact</a>
                         <ul class="social-media">
