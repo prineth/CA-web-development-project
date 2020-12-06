@@ -292,7 +292,7 @@
       </div>
       <div class="dropdown">
         <!--<a class="dropbtn">Dropdown</a>--> 
-        <li><a class="dropbtn" href="#">Welcome,<b> Naji</b></a></li>
+        <li><a class="dropbtn" href="#">Welcome,<b> Samantha</b></a></li>
         <div class="dropdown-content">
           <a href="#">Profile settings</a>
           <a href="#">My favourits</a>

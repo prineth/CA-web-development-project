@@ -3,8 +3,6 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    
-
 }
 
 body{
@@ -14,9 +12,10 @@ nav{
     background: #219c2c;
     height: 80px;
     width:100%;
-    position: relative;
+    position: absolute;
     margin: 0;
     padding-top: 0px;
+    z-index: 100;
 }
 label.logo{
     color: white;
