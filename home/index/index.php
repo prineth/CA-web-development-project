@@ -317,7 +317,7 @@
 	<div class="covidcontainer">
     	<div class="coviddiv" style="position: absolute; top: 0px; z-index: 10;">
     		<h6>TRAVEL NOTICE:
-    		<a href="https://covid19.who.int/" style="position: absolute; top: 2px; left: 150px; z-index: 10;"> Learn more about COVID-19</a>
+    		<a href=file:///C:/xampp/htdocs/CA-web-development-project/Banner"" style="position: absolute; top: 2px; left: 150px; z-index: 10;"> Learn more about COVID-19</a>
     		<button class="colsebutton" style="position: absolute; top: 0px; left: 1220px; z-index: 10;">&times;</button>
     		</h6> 
     	</div>
