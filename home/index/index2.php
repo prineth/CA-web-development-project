@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../Explore/Catgry/css/nav.css">
     <link rel="stylesheet" href="includes/style/parallex-style.css">
     <link rel="stylesheet" href="includes/style/index-style.css">
-    <link rel="stylesheet" type="text/css" href="style/top.css">
+    <!--link rel="stylesheet" type="text/css" href="style/top.css"-->
 
     <style type="text/css">
         .card h1
